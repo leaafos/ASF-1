@@ -1,7 +1,26 @@
 .main-mentions {
   display: flex;
+  margin: 40px;
 }
 
 .p-mentions {
   color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.h1-mentions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-size: 35px;
+}
+
+.h2-mentions {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
 }
