@@ -1,0 +1,15 @@
+.main-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #717171;
+  margin-top: 20px;
+}
+
+.footerText {
+  color: white;
+}
+
+.logoFooter {
+  margin-top: 5px;
+}

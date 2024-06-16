@@ -35,6 +35,8 @@ import VolleyBall from "./pages/sports/VolleyBall.jsx";
 import Yoga from "./pages/sports/Yoga.jsx";
 import Menu from "./components/Menu.jsx";
 import Construction from "./pages/Construction.jsx";
+import Footer from "./components/Footer.jsx";
+import MentionsLegales from "./pages/MentionsLégales.jsx";
 
 function App() {
   return (
@@ -82,7 +84,9 @@ function App() {
             <Route path="/tennisdetable" element={<TennisDeTable />} />
             <Route path="/volleyball" element={<VolleyBall />} />
             <Route path="/yoga" element={<Yoga />} />
+            <Route path="/mentionslegales" element={<MentionsLegales />} />
           </Routes>
+          <Footer></Footer>
         </div>
       </Router>
     </ErrorBoundary>
