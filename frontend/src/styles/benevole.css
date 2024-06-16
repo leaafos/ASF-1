@@ -1,0 +1,100 @@
+.header-benevole {
+    width: 100%;
+}
+
+.header-benevole img {
+    width: 100%;
+}
+
+.description-benevole {
+    margin: 32px 48px 32px 32px;
+    color: #666666;
+}
+
+.description-benevole h2 {
+    color : #0913B1;
+}
+
+.cases {
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+    gap: 64px;
+}
+
+.case {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 32px;
+}
+
+@media (max-width: 860px) {
+
+    .case {
+        margin: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cases {
+        display: block;
+    }
+
+    .colonne {
+        margin: 0;
+    }
+}
+
+.separation {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-top: -3%;
+}
+
+.separation img {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.formulaire-benevole {
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+    overflow-y: auto;
+    background-image: url("../images/Benevoles/bandeau-benevole-formulaire.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 860px) {
+
+    .formulaire-benevole {
+        display: flex;
+        flex-direction: column-reverse;
+        min-height: 500px;
+    }
+
+    .connexion-benevole {
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+.formulaire-contact-benevole {
+    margin-top: 10%;
+}
+
+
+.connexion-benevole {
+    display: flex; 
+    align-items: center;
+    margin-bottom: -12%;
+}

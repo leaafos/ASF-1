@@ -1,0 +1,559 @@
+h2 {
+    margin-top: 48px;
+}
+
+h4 {
+    color:#0913B1;
+}
+
+.header {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+}
+
+.aikido {
+    background-image: url("../images/Sports/banniere-aikido.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.athletisme {
+    background-image: url("../images/Sports/banniere-athletisme.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.badminton {
+    background-image: url("../images/Sports/banniere-badminton.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.basketball {
+    background-image: url("../images/Sports/bannière-basketball.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.boxe-thailandaise {
+    background-image: url("../images/Sports/banniere-boxethailandaise.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.capoeira {
+    background-image: url("../images/Sports/banniere-capoeira.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ecolededanse {
+    background-image: url("../images/Sports/banniere-ecoleDeDanse.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ecoledessports {
+    background-image: url("../images/Sports/banniere-ecoleDesSports.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.escrime {
+    background-image: url("../images/Sports/banniere-escrime.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.fitness {
+    background-image: url("../images/Sports/banniere-fitness.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.football {
+    background-image: url("../images/Sports/banniere-football.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gymnastiqueArtistique {
+    background-image: url("../images/Sports/banniere-gymnastiqueArtistique.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gymnastiqueRythmique {
+    background-image: url("../images/Sports/banniere-gymnastiqueRythmique.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.handball {
+    background-image: url("../images/Sports/banniere-handball.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.judoJuJitsu {
+    background-image: url("../images/Sports/banniere-jujitsu.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.karate {
+    background-image: url("../images/Sports/banniere-karate.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.kungFu {
+    background-image: url("../images/Sports/banniere-kungFu.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.marcheNordique {
+    background-image: url("../images/Sports/banniere-marcheNordique.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.natation {
+    background-image: url("../images/Sports/banniere-natation.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.parkour {
+    background-image: url("../images/Sports/banniere-parkour.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.rygby {
+    background-image: url("../images/Sports/banniere-rugby.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.squash {
+    background-image: url("../images/Sports/banniere-squash.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.taekwondo {
+    background-image: url("../images/Sports/banniere-taekwondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tennis {
+    background-image: url("../images/Sports/banniere-taekwondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tennisDeTable {
+    background-image: url("../images/Sports/banniere-tennisDeTable.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.volleyball {
+    background-image: url("../images/Sports/banniere-volleyBall.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.yoga {
+    background-image: url("../images/Sports/banniere-yoga.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nom-sport {
+    margin-left: 64px;
+    font-family: 'roboto', sans-serif;
+}
+
+.saison {
+    margin-right: 64px;
+    font-family: 'roboto', sans-serif;
+}
+
+.infos {
+    margin: 32px 64px 32px 64px;
+}
+
+.infos h2 {
+    color: #B8BCEF;
+    font-family: 'roboto', sans-serif;
+}
+
+.infos hr {
+    color: #B8BCEF;
+}
+
+.methodes {
+    display: flex;
+    justify-content: space-between;
+    gap: 20%;
+}
+
+.methodes h4 {
+    color: #0913B1;
+    font-family: 'roboto', sans-serif;
+    width: 40%;
+}
+
+.description-ajout {
+    color:#0913B1;
+
+}
+
+.ligne {
+    width: 100%;
+    height: 2px;
+    background-color: #E1E1E1;
+    border: none;
+}
+
+.ligne-titre {
+    width: 100%;
+    height: 3px;
+    background-color: #B8BCEF;
+    border: none;
+}
+
+
+.titre-entrainements {
+    width: 100%;
+    display: flex;
+    gap: 10%;
+}
+
+.titre-entrainements div {
+    width: 100%;
+    margin-top: 16px;
+    color: #0913B1;
+    background-image: url("../images/Sports/ampoule.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.titre-entrainements p {
+    padding-top: 1%;
+    padding-left: 5%;
+}
+
+.entrainement-ligne {
+    width: 80%;
+    margin-right: 30%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10%;
+}
+
+.entrainement-ligne h4 {
+    max-width: 20%;
+    min-width: 20%;
+    color: #0913B1;
+}
+
+.entrainement-ligne p {
+    min-width: 25%;
+    max-width: 25%;
+}
+
+.inscription {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 18%;
+}
+
+.inscription h4 {
+    color: #0913B1;
+    width: 50%;
+}
+
+.lien {
+    color: #B8BCEF;
+    text-decoration: underline;
+}
+
+.lien a, .btn {
+    color:#0913B1;
+    text-decoration: none;
+}
+
+.cotisations {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
+.ligne-cotisations {
+    display: flex;
+    align-content: space-around;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+
+.case-cotisation {
+    width: 280px;
+    min-height: 240px;
+    margin-bottom: 32px;
+    padding: 12px;
+    background-color: #B8BCEF;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.prix-cotisation {
+    font-size: 52px;
+}
+
+.prix-cotisation-gym {
+    font-size: 24px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+}
+
+.infos-contact {
+    display: flex; 
+    flex-direction: column;
+    align-items: right;
+}
+
+.contacts h4 {
+    width: 30%;
+    color: #0913B1;
+}
+
+.email {
+    color: #B8BCEF;
+    text-decoration: underline;
+    padding: 16px;
+}
+
+
+/**********************
+
+    RESPONSIVE 
+
+**********************/
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .header {
+        height: 30vh;
+        font-size: 24px;
+    }
+    
+    .nom-sport {
+        margin-left: 32px;
+    }
+
+    .saison {
+        margin-right: 32px;
+    }
+
+    .infos {
+        margin: 16px 32px 16px 32px;
+    }
+
+    .methodes {
+        display: flex;
+        justify-content: space-between;
+        gap: 10%;
+    }
+
+    .entrainement-ligne {
+        width: 100%;
+        margin-right: 5%;
+    }
+    
+    .cotisation {
+        display: block;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header {
+        height: 30vh;
+        font-size: 24px;
+    }
+    
+    .nom-sport {
+        margin-left: 32px;
+    }
+
+    .saison {
+        margin-right: 32px;
+    }
+
+    .infos {
+        margin: 16px 32px 16px 32px;
+    }
+
+    .methodes {
+        display: flex;
+        justify-content: space-between;
+        gap: 10%;
+    }
+
+    .titre-entrainements p {
+        padding-left: 10%;
+    }
+
+    .entrainement-ligne {
+        width: 100%;
+        margin-right: 5%;
+    }
+
+    .cotisations {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .header {
+        height: 20vh;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items:first center;
+        justify-content: center;
+    }
+
+    .nom-sport {
+        margin-left: 16px;
+    }
+
+    .saison {
+        margin-right: 16px;
+    }
+
+    .infos {
+        margin: 64px 16px 8px 16px;
+    }
+
+    .methodes {
+        display: block;
+        margin-bottom: 48px;
+    }
+
+    .methodes h4 {
+        width: 100%;
+    }
+
+    .titre-entrainements {
+        width: 100%;
+        display: block;
+        gap: 0%;
+    }
+
+    .titre-entrainements p {
+        padding-left: 15%;
+    }
+
+    .entrainement-ligne {
+        width: 100%;
+        margin-right: 0%;
+        display: block;
+    }
+
+    .entrainement-ligne h4 {
+        width: 100%;
+    }
+    
+    .entrainement-ligne h4 {
+        max-width: 100%;
+        min-width: 100%;
+        color: #0913B1;
+    }
+    
+    .entrainement-ligne p {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .case {
+        margin-right: 0%;
+    }
+
+    .inscription {
+        display: block;
+    }
+
+    .inscription h4 {
+        width: 100%;
+    }
+
+    .cotisations {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .ligne-cotisations {
+        flex-direction: column;
+    }
+
+    .contacts {
+        display : block;
+    }
+
+    .contacts h4 {
+        width: 60%;
+        color: #0913B1;
+    }
+    
+}

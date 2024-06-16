@@ -1,0 +1,215 @@
+body {
+    color: #666666;
+}
+
+h3 {
+    color: #0913B1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-historique {
+    min-width: 100%;
+}
+
+.header-historique img {
+    width: 100%;
+}
+
+.histoire {
+    margin: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.histoire img {
+    width: 100%;
+}
+
+.presidents {
+    margin: 64px;
+    margin-bottom: 124px;
+}
+
+.presidents hr {
+    margin-bottom: 5%;
+}
+
+
+.elements-phrise {
+    margin-top: -3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    justify-items: center;
+}
+
+.ligne-phrise {
+    width: 100%;
+    height: 4px;
+    margin-top: 10%;
+    background-color: #E1E1E1;
+    border: none
+}
+
+.point {
+    width: 10%;
+    margin-top: -5%;
+}
+
+.point h5 {
+    font-size: 16px;
+}
+
+.point span {
+    color: #B8BCEF;
+}
+
+.separations {
+    width: 100%;
+}
+
+.separations img{
+    width: 100%;
+    margin: 0;
+}
+
+.separations .zigzag {
+    position: absolute;
+    width: 100%;
+    margin-top: -5%;
+}
+
+.separations .bandeauSeparation {
+    margin-top: -3%;
+}
+
+.assemblee-generale {
+    max-width: 100%;
+    margin: 64px;
+}
+
+.assemblee-generale h3{
+    color: #0913B1;
+}
+
+
+.colonne {
+    display: grid;
+}
+
+.ligne2 {
+    margin-top: -2%;
+    grid-template-columns: repeat(2, 1fr); 
+}
+
+.ligne3 {
+    grid-template-columns: repeat(4, 1fr); 
+}
+
+.ligne4 {
+    grid-template-columns: repeat(3, 1fr); 
+}
+
+.ligne5 {
+    margin-top: -2%;
+    grid-template-columns: repeat(2, 1fr); 
+}
+
+.case h3 {
+    color: #B8BCEF;
+}
+
+.case {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 1524px) {
+    .elements-phrise {
+        margin-top: -5%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .histoire {
+        margin: 32px;
+        flex-direction: column;
+    }
+
+    .presidents {
+        margin: 32px;
+        margin-bottom: 124px;
+    }
+    
+    .presidents hr {
+        display: none;
+    }
+    
+    
+    .elements-phrise {
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .point {
+        width: 100%;
+        margin: 16px;
+    }
+
+    .point img {
+        display: none;
+    }
+    
+    .assemblee-generale {
+        padding-top: 32px;
+        margin: 12px;
+    }
+        
+    .arbre-assemblee-generale {
+        width: 100%;
+        display: grid;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .arbre-assemblee-generale {
+        width: 80%;
+        display: block;
+        gap: 10px;
+    }
+
+    .colonne {
+        display: block;
+    }
+
+    .ligne1 {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+
+    .ligne2 {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    .ligne3 {
+        grid-template-columns: repeat(4, 1fr); 
+    }
+
+    .ligne4 {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+
+    .ligne5 {
+        grid-template-columns: repeat(2, 1fr); 
+        grid-column-gap: 5px;
+    }
+}

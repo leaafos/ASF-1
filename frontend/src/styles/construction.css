@@ -1,0 +1,35 @@
+.header-construction {
+    width: 100%;
+}
+
+.header-construction img {
+    width: 100%;
+} 
+
+.contenu-contruction {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenu-contruction h1 {
+    font-size: 64px;
+    padding: 0;
+    color: #0913B1;
+}
+
+.bouton-construction {
+    margin-top: 32px;
+    font-size: 1rem;
+    padding: 12px;
+    color: #0913B1;
+    background-color: white;
+    border: 1px solid #0913B1;
+    border-radius: 8px;
+}
+
+.bouton-construction a, .btn {
+    color:#0913B1;
+    text-decoration: none;
+}

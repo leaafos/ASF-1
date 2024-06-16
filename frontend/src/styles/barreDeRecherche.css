@@ -1,0 +1,56 @@
+.barre-de-recherches-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.barre-de-recherches {
+    width: 100%;
+    height: 40%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 16px;
+    padding-right: 16px;
+    background-color: #FFFFFF;
+    border-radius: 180px;
+    border: 1px solid #B8BCEF;
+    background-image: url("../images/Accueil/barre-de-recherches-avec-fond.png");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+}
+
+/* Style pour le champ de saisie */
+.barre-de-recherches-container input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+
+.barre-de-recherches-container ul {
+    margin-top: 10px;
+    padding: 0;
+    list-style-type: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-height: 150px;
+    overflow-y: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.barre-de-recherches-container li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.barre-de-recherches-container li:hover {
+    background-color: #f0f0f0; 
+}
+
+@media (max-width: 1024px) {
+    .barre-de-recherches {
+        width: 90%;
+    }
+}

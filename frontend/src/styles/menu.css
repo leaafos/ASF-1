@@ -1,0 +1,113 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  color: white;
+  position: relative;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+}
+
+.nav-links li {
+  margin-right: 48px;
+}
+
+.nav-links a,
+.nav-links .btn {
+  color: #0913b1;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.nav-links.open {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
+}
+
+.nav-links li a.active {
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: inset 0 -3px 0 0 #0913b1;
+  border-bottom: 2px solid white;
+}
+
+.bouton-devenir-benevole {
+  color: white;
+  background-color: #ff6d6f;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+  transition: all 0.3s;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-links {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    z-index: 1000;
+    padding-top: 4rem;
+  }
+
+  .nav-links.open {
+    transform: translateX(0%);
+  }
+
+  .nav-links li {
+    margin: 50px 0;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .burger div {
+    width: 25px;
+    height: 3.5px;
+    background-color: #0913b1;
+  }
+}

@@ -1,0 +1,118 @@
+.header-contact {
+  width: 100%;
+}
+
+.header-contact img {
+  width: 100%;
+}
+
+/* début contenu */
+
+.contact-info {
+  display: flex;
+  margin: 32px 32px 0 32px;
+  text-size-adjust: 18px;
+}
+
+@media (max-width: 1000px) {
+  .contact-info {
+    flex-direction: column;
+  }
+
+  .infos-gauche {
+    min-width: 100%;
+  }
+
+  .infos-droite {
+    min-width: 100%;
+  }
+}
+
+.infos-gauche {
+  padding-right: 10px;
+  width: 50%;
+}
+
+.infos-gauche h3 {
+  color: #0913b1;
+  font-family: "roboto", sans-serif;
+}
+
+.infos-droite {
+  width: 50%;
+}
+
+.infos-droite img {
+  padding-right: 0;
+  width: 100%;
+}
+
+/*Intérieur de la box de gauche*/
+
+.boites {
+  display: flex;
+  gap: 10px;
+}
+
+.boites h4 {
+  color: #0913b1;
+  font-family: "roboto", sans-serif;
+}
+
+.boite-adresse {
+  flex: 1;
+}
+
+.boite-horaires {
+  flex: 1;
+}
+
+.boite-réseaux {
+  flex: 1;
+}
+
+.telephone {
+  color: #0913b1;
+  margin-bottom: 12px;
+  font-family: "roboto", sans-serif;
+}
+
+.numero {
+  min-height: 36px;
+  background-image: url("../images/Contact/iconeTelephone.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.numero p {
+  color: #666666;
+  font-size: 18px;
+  padding-left: 8%;
+}
+
+.formulaire-bandeau {
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+  background-image: url("../images/Contact/bandeau-contact-formulaire.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.formulaire {
+  padding-top: 10%;
+  padding-left: 5%;
+  width: 40%;
+}
+
+@media (max-width: 1028px) {
+  .formulaire-bandeau {
+    display: flex;
+    justify-content: center;
+    min-height: 500px;
+  }
+
+  .formulaire {
+    width: 80%;
+  }
+}
