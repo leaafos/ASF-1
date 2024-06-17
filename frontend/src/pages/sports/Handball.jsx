@@ -58,14 +58,14 @@ const Handball = () => {
               <p>
                 <b>
                   Les premières séances d’entrainements se tiendront à partir du
-                  Lundi 09 Septembre 2024
+                  Lundi 02 Septembre 2024
                 </b>
               </p>
             </div>
           </div>
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
-            <h4>PREMIERS PAS 2019/2020</h4>
+            <h4>PREMIERS PAS</h4>
             <p>
               <b>HALLE</b>
               <br />
@@ -78,7 +78,7 @@ const Handball = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>MINI HAND 2017/2018</h4>
+            <h4>M7</h4>
             <p>
               <b>HALLE</b>
               <br />
@@ -91,7 +91,7 @@ const Handball = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M9 MIXTE 2015/2016</h4>
+            <h4>M9</h4>
             <p>
               <b>HALLE</b>
               <br />
@@ -99,12 +99,12 @@ const Handball = () => {
               Gymnase du Parc, 7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>SAMEDI 14H00-16H00</b>
+              <b>SAMEDI 14H30-16H00</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M11 MIXTE 2013/2014</h4>
+            <h4>M11 </h4>
             <p>
               <b>HALLE</b>
               <br />
@@ -140,7 +140,7 @@ const Handball = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M13 MASCULIN 2011/2012</h4>
+            <h4>M13 </h4>
             <p>
               <b>HALLE</b>
               <br />
@@ -179,7 +179,7 @@ const Handball = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M15 MASCULIN 2009/2010</h4>
+            <h4>M15 </h4>
             <p>
               <b>HALLE</b>
               <br />
@@ -201,11 +201,11 @@ const Handball = () => {
               Fontenay-aux-Roses
             </p>
             <p>
-              Équipe 1 : <br />
+              Équipe 1 - Entente : <br />
               <b>
-                MARDI 19H30-21H00
+                MARDI 19H15-20H30
                 <br />
-                <i>(René Rousseau)</i>
+                <i className="i-style">(René Rousseau)</i>
                 <br />
                 JEUDI 18H15-19H30
               </b>
@@ -215,13 +215,17 @@ const Handball = () => {
               <i>(parc)</i>
               <br />
               <br />
-              Équipe 2 : <i>(panorama)</i>
+              Équipe 2 - Entente : <i>(panorama)</i>
               <br />
-              <b>MARDI 19H30-21H00</b>
+              <b>LUNDI 18H30- 19H45</b>
               <br />
               <i>(René Rousseau)</i>
               <br />
-              <b>JEUDI 18H15-19H30</b>
+              <b>MARDI 18H15-19H30</b>
+              <br />
+              <i>(parc)</i>
+              <br />
+              <b>VENDREDI 18H15-19H30</b>
               <br />
               <i>(parc)</i>
               <br />
@@ -237,88 +241,126 @@ const Handball = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M18 MASCULIN 2006/2007/2008</h4>
+            <h4>P16</h4>
             <p>
               <b>HALLE</b>
+              <br />
+              <br />
+              Gymnase du Parc 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              <br />
+              <br />
+              <b>HALLE</b>
+              <br />
+              <br />
+              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
+              Fontenay-aux-Roses
+            </p>
+            <p>
+              Équipe 1 :<br />
+              <b>
+                LUNDI 21H-22H30
+                <br />
+                <i className="i-style">(panorama)</i>
+                <br />
+                MARDI 21H-22H30
+                <br />
+                <i className="i-style">(parc)</i>
+                <br />
+                JEUDI 21H-22H30
+                <br />
+                <i className="i-style">(parc)</i>
+              </b>
+              <br />
+              <br />
+              Équipe 2 :<br />
+              <b>
+                MERCREDI 21H-22H30
+                <br />
+                <i className="i-style">(panorama)</i>
+                <br />
+                VENDREDI 21H-22H30
+                <br />
+                <i className="i-style">(parc)</i>
+              </b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>M18 </h4>
+            <p>
+              <b>HALLE</b>
+              <br />
+              <br />
+              Gymnase du Parc 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              <br />
+              <br />
+              <b>HALLE</b>
+              <br />
+              <br />
+              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
+              Fontenay-aux-Roses
               <br />
               <br />
               Gymnase René Rousseau (Malakoff) 10bis Av. Augustin Dumont, 92260
               Fontenay-aux-Roses
+            </p>
+            <p>
+              Équipe 1 - Entente :<br />
+              <b>
+                MARDI 19H30-21H
+                <br />
+                <i className="i-style">(parc)</i>
+                <br />
+                JEUDI 19H30-21H
+                <br />
+                <i className="i-style">(parc)</i>
+                <br />
+                VENDREDI 19H45-21H
+                <br />
+                <i className="i-style">(René Rousseau)</i>
+              </b>
               <br />
               <br />
+              Équipe 2 - Entente :<br />
+              <b>
+                MERCREDI 19H30 -21H
+                <br />
+                <i className="i-style">(panorama)</i>
+                <br />
+                VENDREDI 19H45-21H
+                <br />
+                <i className="i-style">(René Rousseau)</i>
+              </b>
+            </p>
+          </div>
+          <hr className="ligne"></hr>
+          <div className="entrainement-ligne">
+            <h4>SENIORS</h4>
+            <p>
               <b>HALLE</b>
               <br />
               <br />
               Gymnase du Parc 7 Avenue du Parc, 92260 Fontenay-aux-Roses
               <br />
               <br />
-              <b>HALLE</b>
-              <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
+              Salle musculation, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              Équipe 1 :<br />
               <b>
-                MARDI 19H30-21H00
+                MARDI 18H00-22H00
                 <br />
-                JEUDI 19H30-21H00
+                <i className="i-style">(Salle de musculation)</i>
+                <br />
+                <br />
+                VENDREDI 19H30-21H
+                <br />
+                <i className="i-style">(parc)</i>
               </b>
-              <br />
-              <br />
-              Équipe 2 :<br />
-              <b>MERCREDI 19H30-21H00</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>M18 MASCULIN 2006/2007/2008</h4>
-            <p>
-              <b>HALLE</b>
-              <br />
-              <br />
-              Gymnase du Parc 7 Avenue du Parc, 92260 Fontenay-aux-Roses
-              <br />
-              <br />
-              <b>HALLE</b>
-              <br />
-              <br />
-              Stade du Panorama 21 Bd du Moulin de la Tour, 92260
-              Fontenay-aux-Roses
-            </p>
-            <p>
-              Équipe 1 :<br />
-              <b>LUNDI 21H00-22H3</b>
-              <br />
-              <i>(panorama)</i>
-              <br />
-              <b>
-                MARDI 21H00-22H30
-                <br />
-                JEUDI 21H00-22H30
-              </b>
-              <br />
-              <i>(parc)</i>
-              <br />
-              <br />
-              Équipe 2 :<br />
-              <b>
-                LUNDI 21H00-22H00
-                <br />
-                MERCREDI 21H00-22H30
-              </b>
-              <br />
-              <i>(panorama)</i>
-              <br />
-              <b>VENDREDI 21H00-22H30</b>
-              <br />
-              <i>(parc)</i>
-            </p>
-          </div>
-          <hr className="ligne"></hr>
-          <div className="entrainement-ligne">
-            <h4>LOISIRS ADULTES</h4>
+            <h4>LOISIRS </h4>
             <p>
               <b>HALLE</b>
               <br />
@@ -331,18 +373,29 @@ const Handball = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>HAND'FIT MIXTE</h4>
+            <h4>HANDFIT</h4>
             <p>
               <b>HALLE</b>
+              <br />
+              <br />
+              Gymnase du Parc 7 Avenue du Parc, 92260 Fontenay-aux-Roses
+              <br />
+              <br />
+              <b>Salle polyvalente</b>
               <br />
               <br />
               Gymnase du Parc 7 Avenue du Parc, 92260 Fontenay-aux-Roses
             </p>
             <p>
               <b>
-                SAMEDI 10H00-12H00
+                MARDI 21H00-22H00
+                <br />
+                <i className="i-style">(Salle polyvalente)</i>
+                <br />
                 <br />
                 SAMEDI 09H00-10H00
+                <br />
+                <i className="i-style">(Halle du parc)</i>
               </b>
             </p>
           </div>
