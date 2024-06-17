@@ -131,12 +131,22 @@ const Aikido = () => {
         <h2>INSCRIPTIONS</h2>
         <hr className="ligne-titre"></hr>
         <div className="inscription">
-          <h4>INSCRIPTION POSSIBLE VIA LE LIEN SUIVANT :</h4>
-          <span className="lien">
-            <a href="https://asfontenaisienne.monclub.app/">
-              LIEN D'INSCRIPTION
-            </a>
-          </span>
+          <div className="inscription-h3">
+            <h3>Guide inscription à destination de nos adhérent(e)s : </h3>
+            <span>
+              <a href="https://teamrsport.notion.site/Refonte-du-parcours-d-inscription-sur-le-web-16bd9422267c47d18b69570fd2fe34ab">
+                Parcours d'inscription sur le web
+              </a>
+            </span>
+          </div>
+          <div className="inscription-h3">
+            <h3>Inscription en ligne :</h3>
+            <span className="lien">
+              <a href="https://asfontenaisienne.monclub.app/">
+                LIEN D'INSCRIPTION
+              </a>
+            </span>
+          </div>
         </div>
         <h2>COTISATIONS</h2>
         <hr className="ligne-titre"></hr>

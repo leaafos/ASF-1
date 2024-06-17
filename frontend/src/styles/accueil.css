@@ -178,7 +178,7 @@
 @media (max-width: 1024px) {
   .evenements {
     display: flex;
-    flex-flow: wrap;
+    flex-direction: wrap;
   }
 
   .chiffres-cles {
