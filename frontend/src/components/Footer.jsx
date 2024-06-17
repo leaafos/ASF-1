@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "../images/Logo.png";
 import MentionsLegales from "../pages/MentionsLégales";
-import "../styles/Footer.css";
+import "../styles/footer.css";
 
 function Footer() {
   return (

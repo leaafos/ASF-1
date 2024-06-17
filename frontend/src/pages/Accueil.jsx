@@ -9,8 +9,69 @@ import Photo2 from "../images/Accueil/photosEtVideos/photo2.png";
 import Photo3 from "../images/Accueil/photosEtVideos/photo3.png";
 import Video1 from "../images/Accueil/photosEtVideos/video1.png";
 import Video2 from "../images/Accueil/photosEtVideos/video2.png";
+import Card from "../components/Card";
+import stageFoot from "../images/Accueil/evenements/stageFoot.png";
+import stageHandball from "../images/Accueil/evenements/stageHandball.png";
+import stageTennis from "../images/Accueil/evenements/stageTennis.png";
+import stageTennisDeTable from "../images/Accueil/evenements/stageTennisDeTable.png";
 
 const Accueil = () => {
+  const cardsEvent = [
+    {
+      title: "Stage Foot",
+      photo: stageFoot,
+      informations: "U9 à U13",
+      date: "8 Juillet au 12 juillet",
+      location: "Stade du Panorama",
+      contact: "06 89 86 78 11",
+    },
+
+    {
+      title: "Stage Handball",
+      photo: stageHandball,
+      informations: `<ul>
+                     <li>Tout public (Adhérent ou non adhérent à l'ASF)</li>
+                      <li>De 7 à 11 ans </li>
+                      <li>De 9h à 17h</li>
+                    </ul>`,
+      date: "8 Juillet au 12 juillet",
+      location: "Halle du Panorama",
+      contact: "Hugo Brutelle : 06 11 75 85 35",
+    },
+    {
+      title: "Stage Tennis de Table",
+      photo: stageTennisDeTable,
+      informations: `<ul>
+                      <li>Tout public (Adhérent ou non adhérent à l'ASF)</li>
+                      <li>A partir de 6 ans</li>
+                      <li>De 9h à 12h</li>
+                    </ul>`,
+      date: "8 Juillet au 12 juillet",
+      location: "Stade du Panorama",
+      contact:
+        "Rémi RICHARD - Secrétaire/Correspondant sportif : richard.r13p@free.fr",
+    },
+    {
+      title: "Stage Tennis",
+      photo: stageTennis,
+      informations: `<ul>
+                      <li>Tout public (Adhérent ou non adhérent à l'ASF)</li>
+                      <li>De 9h30 à 16h30</li>
+                      <li>Inscription : www.asftennis.com</li>
+                    </ul>`,
+      date: `<ul>
+                      <li>24 juin au 28 juin 2024)</li>
+                      <li>01 au 05 juillet 2024</li>
+                      <li>08 juillet au 12 juillet 2024</li>
+                      <li>15 au 19 juillet 2024</li>
+                      <li>26 au 30 Août 2024</li>
+                    </ul>`,
+
+      location: "Tennis municipaux",
+      contact:
+        "Responsable administrative : contact@asftennis.com <br/> 06 89 86 78 11",
+    },
+  ];
   return (
     <div>
       <div className="header-accueil">
@@ -22,37 +83,20 @@ const Accueil = () => {
       <div className="icones-deroulant">
         <ListeIcones></ListeIcones>
       </div>
+
       <div className="evenements">
-        <div className="event event1">
-          <div className="heureDate">
-            <p>SAMEDI 25 MAI</p>
-            <p>13:00 - 19:00</p>
-          </div>
-          <h5>LASER RUN</h5>
-        </div>
-        <div className="event event2">
-          <div className="heureDate">
-            <p>SAMEDI 25 MAI</p>
-            <p>13:00 - 19:00</p>
-          </div>
-          <h5>ESPORT</h5>
-        </div>
-        <div className="event event3">
-          <div className="heureDate">
-            <p>JEUDI 27 JUIN</p>
-            <p>
-              10:00 - 12:00 <br />
-              13:00 - 16:00
-            </p>
-          </div>
-          <h5>TOURNOI DE RUGBY</h5>
-        </div>
-        <div className="event event4">
-          <div className="heureDate">
-            <p>8 ET 9 JUIN</p>
-            <p>09:00 - 17:30</p>
-          </div>
-          <h5>TOURNOI DE FOOT</h5>
+        <div className="cards-container">
+          {cardsEvent.map((card, index) => (
+            <Card
+              key={index}
+              title={card.title}
+              photo={card.photo}
+              informations={card.informations}
+              date={card.date}
+              location={card.location}
+              contact={card.contact}
+            />
+          ))}
         </div>
       </div>
       <div className="bouton">
@@ -62,6 +106,7 @@ const Accueil = () => {
           </Link>
         </button>
       </div>
+
       <div className="chiffres-cles">
         <div className="chiffre1">
           <h4>SPORTS</h4>

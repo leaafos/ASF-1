@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import Card from "../components/Card";
 import "../styles/admin.css";
 
 const Admin = () => {
@@ -13,6 +14,8 @@ const Admin = () => {
     createdAt: "",
     updatedAt: "",
   });
+
+  const [cards, setCards] = useState([]);
 
   const handleOptionChange = (event) => {
     setSelectedOption(event.target.value);
@@ -29,7 +32,36 @@ const Admin = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     // Handle form submission logic
-    console.log("Form data submitted:", formData);
+    setCards([...cards, formData]);
+    setFormData({
+      title: "",
+      date: "",
+      description: "",
+      photo: "",
+      idClient: "",
+      createdAt: "",
+      updatedAt: "",
+    });
+  };
+
+  const [formDataEvent, setFormDataEvent] = useState({
+    title: "",
+    photo: "",
+    Informations: "",
+    date: "",
+    location: "",
+    contact: "",
+    idClient: "",
+    createdAt: "",
+    updatedAt: "",
+  });
+
+  const handleInputChangeEvent = (event) => {
+    const { name, value } = event.target;
+    setFormDataEvent({
+      ...formDataEvent,
+      [name]: value,
+    });
   };
 
   const [formDataSection, setFormDataSection] = useState({
@@ -59,24 +91,26 @@ const Admin = () => {
         return (
           <div className="form-container">
             <div className="form-group">
-              <label className="label-admin" for="nom">
-                Nom:{" "}
+              <label className="label-admin" for="title">
+                Nom:
               </label>
               <input
                 type="text"
                 id="title"
+                name="title"
                 className="input-admin"
                 value={formData.title}
                 onChange={handleInputChange}
               />
             </div>
             <div className="form-group">
-              <label className="label-admin" for="année">
-                Année:{" "}
+              <label className="label-admin" for="date">
+                Année:
               </label>
               <input
                 type="date"
                 id="date"
+                name="date"
                 className="input-admin"
                 value={formData.date}
                 onChange={handleInputChange}
@@ -84,10 +118,11 @@ const Admin = () => {
             </div>
             <div className="form-group">
               <label className="label-admin" for="description">
-                Description:{" "}
+                Description:
               </label>
               <textarea
                 id="description"
+                name="description"
                 className="textarea-admin"
                 value={formData.description}
                 onChange={handleInputChange}
@@ -95,47 +130,51 @@ const Admin = () => {
             </div>
             <div className="form-group">
               <label className="label-admin" for="photo">
-                Photo:{" "}
+                Photo:
               </label>
               <input
                 type="text"
                 id="photo"
+                name="photo"
                 className="input-admin"
                 value={formData.photo}
                 onChange={handleInputChange}
               />
             </div>
             <div className="form-group">
-              <label className="label-admin" for="id Client">
-                ID Client:{" "}
+              <label className="label-admin" for="idClient">
+                ID Client:
               </label>
               <input
                 type="text"
                 id="idClient"
+                name="idClient"
                 className="input-admin"
                 value={formData.idClient}
                 onChange={handleInputChange}
               />
             </div>
             <div className="form-group">
-              <label className="label-admin" for="crée le">
-                Créé le:{" "}
+              <label className="label-admin" for="createdAt">
+                Créé le:
               </label>
               <input
                 type="date"
                 id="createdAt"
+                name="createdAt"
                 className="input-admin"
                 value={formData.createdAt}
                 onChange={handleInputChange}
               />
             </div>
             <div className="form-group">
-              <label className="label-admin" for="mis à jour le">
-                Mis à jour le:{" "}
+              <label className="label-admin" for="updateAt">
+                Mis à jour le:
               </label>
               <input
                 type="date"
                 id="updatedAt"
+                name="updateAt"
                 className="input-admin"
                 value={formData.updatedAt}
                 onChange={handleInputChange}
@@ -148,12 +187,13 @@ const Admin = () => {
         return (
           <div className="form-container">
             <div className="form-group">
-              <label className="label-admin" for="nom">
-                Nom:{" "}
+              <label className="label-admin" for="title">
+                Nom:
               </label>
               <input
                 type="text"
                 id="title"
+                name="title"
                 className="input-admin"
                 value={formDataSection.title}
                 onChange={handleInputChangeSection}
@@ -162,11 +202,12 @@ const Admin = () => {
 
             <div className="form-group">
               <label className="label-admin" for="photo">
-                Photo:{" "}
+                Photo:
               </label>
               <input
                 type="text"
                 id="photo"
+                name="photo"
                 className="input-admin"
                 value={formDataSection.photo}
                 onChange={handleInputChangeSection}
@@ -174,22 +215,24 @@ const Admin = () => {
             </div>
 
             <div className="form-group">
-              <label className="label-admin" for="Quelques infos">
-                Quelques infos:{" "}
+              <label className="label-admin" for="infos">
+                Quelques infos:
               </label>
               <textarea
-                id="Quelques infos"
+                id="infos"
+                name="infos"
                 className="textarea-admin"
                 value={formDataSection.infos}
                 onChange={handleInputChangeSection}
               />
             </div>
             <div className="form-group">
-              <label className="label-admin" for="Entrainements">
-                Entrainements:{" "}
+              <label className="label-admin" for="entrainements">
+                Entrainements:
               </label>
               <textarea
-                id="Entrainements"
+                id="entrainements"
+                name="entrainements"
                 className="textarea-admin"
                 value={formDataSection.entrainements}
                 onChange={handleInputChangeSection}
@@ -197,14 +240,12 @@ const Admin = () => {
             </div>
 
             <div className="form-group">
-              <label
-                className="label-admin"
-                for="Inscriptions - paiement en ligne"
-              >
-                Inscriptions - Paiement en ligne:{" "}
+              <label className="label-admin" for="inscriptions">
+                Inscriptions - Paiement en ligne:
               </label>
               <textarea
-                id="Inscription"
+                id="inscriptions"
+                name="inscriptions"
                 className="textarea-admin"
                 value={formDataSection.inscriptions}
                 onChange={handleInputChangeSection}
@@ -213,10 +254,11 @@ const Admin = () => {
 
             <div className="form-group">
               <label className="label-admin" for="cotisations">
-                Cotisations:{" "}
+                Cotisations:
               </label>
               <textarea
-                id="Cotisations"
+                id="cotisations"
+                name="cotisations"
                 className="textarea-admin"
                 value={formDataSection.cotisations}
                 onChange={handleInputChangeSection}
@@ -224,11 +266,12 @@ const Admin = () => {
             </div>
 
             <div className="form-group">
-              <label className="label-admin" for="Contact / Renseignements">
-                Contact / Renseignements:{" "}
+              <label className="label-admin" for="contact">
+                Contact / Renseignements:
               </label>
               <textarea
-                id="Contact"
+                id="contact"
+                name="contact"
                 className="textarea-admin"
                 value={formDataSection.contact}
                 onChange={handleInputChangeSection}
@@ -237,35 +280,38 @@ const Admin = () => {
 
             <div className="form-group">
               <label className="label-admin" for="idClient">
-                ID Client:{" "}
+                ID Client:
               </label>
               <input
                 type="text"
                 id="idClient"
+                name="idClient"
                 className="input-admin"
                 value={formDataSection.idClient}
                 onChange={handleInputChangeSection}
               />
             </div>
             <div className="form-group">
-              <label className="label-admin" for="Crée le">
-                Créé le:{" "}
+              <label className="label-admin" for="createdAt">
+                Créé le:
               </label>
               <input
                 type="date"
                 id="createdAt"
+                name="createdAt"
                 className="input-admin"
                 value={formDataSection.createdAt}
                 onChange={handleInputChangeSection}
               />
             </div>
             <div className="form-group">
-              <label className="label-admin" for="Mis à jour le">
-                Mis à jour le:{" "}
+              <label className="label-admin" for="updateAt">
+                Mis à jour le:
               </label>
               <input
                 type="date"
                 id="updatedAt"
+                name="updateAt"
                 className="input-admin"
                 value={formDataSection.updatedAt}
                 onChange={handleInputChangeSection}
@@ -278,86 +324,120 @@ const Admin = () => {
         return (
           <div className="form-container">
             <div className="form-group">
-              <label className="label-admin" for="titre">
-                Titre:{" "}
+              <label className="label-admin" for="title">
+                Titre:
               </label>
               <input
-                id="titre"
+                id="title"
                 type="text"
+                name="title"
                 className="input-admin"
                 value={formData.title}
-                onChange={handleInputChange}
+                onChange={handleInputChangeEvent}
               />
             </div>
             <div className="form-group">
               <label className="label-admin" for="date">
-                Date:{" "}
+                Date:
               </label>
               <input
                 type="date"
                 id="date"
+                name="date"
                 className="input-admin"
                 value={formData.date}
-                onChange={handleInputChange}
+                onChange={handleInputChangeEvent}
               />
             </div>
             <div className="form-group">
-              <label className="label-admin" for="idClient">
-                Description:{" "}
+              <label className="label-admin" for="informations">
+                Informations:
               </label>
               <textarea
-                id="description"
+                id="informations"
+                name="informations"
                 className="textarea-admin"
                 value={formData.description}
-                onChange={handleInputChange}
+                onChange={handleInputChangeEvent}
               />
             </div>
             <div className="form-group">
               <label className="label-admin" for="photo">
-                Photo:{" "}
+                Photo:
               </label>
               <input
                 type="text"
                 id="photo"
+                name="photo"
                 className="input-admin"
                 value={formData.photo}
-                onChange={handleInputChange}
+                onChange={handleInputChangeEvent}
+              />
+            </div>
+
+            <div className="form-group">
+              <label className="label-admin" for="location">
+                Lieu:
+              </label>
+              <input
+                type="text"
+                id="location"
+                name="location"
+                className="input-admin"
+                value={formData.location}
+                onChange={handleInputChangeEvent}
+              />
+            </div>
+            <div className="form-group">
+              <label className="label-admin" for="contact">
+                Contact:
+              </label>
+              <input
+                type="text"
+                id="contact"
+                name="contact"
+                className="input-admin"
+                value={formData.contact}
+                onChange={handleInputChangeEvent}
               />
             </div>
             <div className="form-group">
               <label className="label-admin" for="idClient">
-                ID Client:{" "}
+                ID Client:
               </label>
               <input
                 type="text"
                 id="idClient"
+                name="idClient"
                 className="input-admin"
                 value={formData.idClient}
-                onChange={handleInputChange}
+                onChange={handleInputChangeEvent}
               />
             </div>
             <div className="form-group">
-              <label className="label-admin" for="Crée le">
-                Créé le:{" "}
+              <label className="label-admin" for="createdAt">
+                Créé le:
               </label>
               <input
                 type="date"
                 id="createdAt"
+                name="createdAt"
                 className="input-admin"
                 value={formData.createdAt}
-                onChange={handleInputChange}
+                onChange={handleInputChangeEvent}
               />
             </div>
             <div className="form-group">
-              <label className="label-admin" for="Mis à jour le">
-                Mis à jour le:{" "}
+              <label className="label-admin" for="updateAt">
+                Mis à jour le:
               </label>
               <input
                 type="date"
                 id="updatedAt"
+                name="updateAt"
                 className="input-admin"
                 value={formData.updatedAt}
-                onChange={handleInputChange}
+                onChange={handleInputChangeEvent}
               />
             </div>
           </div>
@@ -407,6 +487,19 @@ const Admin = () => {
           </div>
         </form>
       )}
+      <div className="cards-container">
+        {cards.map((card, index) => (
+          <Card
+            key={index}
+            title={card.title}
+            photo={card.photo}
+            date={card.date}
+            informations={card.informations}
+            location={card.location}
+            contact={card.contact}
+          />
+        ))}
+      </div>
     </div>
   );
 };

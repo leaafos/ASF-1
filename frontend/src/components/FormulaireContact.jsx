@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import '../styles/ContactForm.css';
+import React, { useState } from "react";
+import "../styles/contactForm.css";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
-    email: '',
-    subject: '',
-    message: ''
+    firstName: "",
+    lastName: "",
+    email: "",
+    subject: "",
+    message: "",
   });
 
   const handleChange = (e) => {
@@ -18,7 +18,7 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Placeholder for form submission logic to backend
-    console.log('Form data submitted:', formData);
+    console.log("Form data submitted:", formData);
     // Example: send data to backend
     // fetch('/api/contact', {
     //   method: 'POST',
@@ -89,7 +89,9 @@ const ContactForm = () => {
           required
         />
       </div>
-      <button type="submit" className='bouton-formulaire'>ENVOYER LE FORMULAIRE</button>
+      <button type="submit" className="bouton-formulaire">
+        ENVOYER LE FORMULAIRE
+      </button>
     </form>
   );
 };

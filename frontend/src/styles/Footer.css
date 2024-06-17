@@ -13,3 +13,19 @@
 .logoFooter {
   margin-top: 5px;
 }
+
+@media (max-width: 760px) {
+  .main-footer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footerText {
+    font-size: 12px;
+  }
+
+  .logoFooter {
+    width: 50%;
+    height: auto;
+  }
+}
