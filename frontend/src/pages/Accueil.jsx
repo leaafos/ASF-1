@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/accueil.css";
-import ListeIcones from "../components/ListeIcones";
+import SlideShowIcones from "../components/SlideShowIcones";
 import BarreDeRecherche from "../components/BarreDeRecherche";
 import BandeauAccueil from "../images/Accueil/bandeau-accueil.png";
 import Photo1 from "../images/Accueil/photosEtVideos/photo1.png";
@@ -81,7 +81,7 @@ const Accueil = () => {
         <BarreDeRecherche></BarreDeRecherche>
       </div>
       <div className="icones-deroulant">
-        <ListeIcones></ListeIcones>
+        <SlideShowIcones></SlideShowIcones>
       </div>
 
       <div className="evenements">

@@ -1,0 +1,53 @@
+.sports-icones-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.scroll-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.scroll-button.left {
+  position: absolute;
+  left: 0;
+}
+
+.scroll-button.right {
+  position: absolute;
+  right: 0;
+}
+
+.sports-icones-container {
+  overflow-x: auto;
+  display: flex;
+  scroll-behavior: smooth;
+}
+
+.sports-liste {
+  display: flex;
+  gap: 20px;
+}
+
+.sport-item {
+  text-align: center;
+  padding: 10px;
+}
+
+.sport-item img {
+  max-width: 100px;
+  height: auto;
+}
+
+.sport-item span {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
