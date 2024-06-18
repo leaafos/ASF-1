@@ -1,12 +1,15 @@
 version: 1
 frontend:
-    phases:
-        build:
-            commands:
-                - 'npm run build'
-    artifacts:
-        baseDirectory: /build
-        files:
-            - '**/*'
-    cache:
-        paths: []
+  phases:
+    preBuild:
+      commands: -ls -al
+        - npm ci
+    build:
+      commands:
+        - "npm run build"
+  artifacts:
+    baseDirectory: amply-aws/frontend/build
+    files:
+      - "**/*"
+  cache:
+    paths: node_modules/**/*
