@@ -181,39 +181,38 @@ const Badminton = () => {
         </div>
         <h2 className="h2">COTISATIONS</h2>
         <hr className="ligne-titre"></hr>
-        <div className="cotisations-lignes">
-          <div className="ligne-cotisations">
-            <div className="case-cotisation">
-              <p>
-                <b>MOINS DE 9 ANS</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>150€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>9 À 18 ANS ET ÉTUDIANTS</b>
-              </p>
-              <p>
-                <i>1 séance/semaine</i>
-              </p>
-              <p className="prix-cotisation">
-                <b>170€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>9 À 18 ANS</b>
-              </p>
-              <p>
-                <i>1 séance/semaine</i>
-              </p>
-              <p className="prix-cotisation">
-                <b>220€</b>
-              </p>
-            </div>
+        <div className="cotisations">
+          <div className="case-cotisation">
+            <p>
+              <b>MOINS DE 9 ANS</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>150€</b>
+            </p>
           </div>
+          <div className="case-cotisation">
+            <p>
+              <b>9 À 18 ANS ET ÉTUDIANTS</b>
+            </p>
+            <p>
+              <i>1 séance/semaine</i>
+            </p>
+            <p className="prix-cotisation">
+              <b>170€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>9 À 18 ANS</b>
+            </p>
+            <p>
+              <i>1 séance/semaine</i>
+            </p>
+            <p className="prix-cotisation">
+              <b>220€</b>
+            </p>
+          </div>
+
           <div className="case-cotisation">
             <p>
               <b>ADULTES</b>

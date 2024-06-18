@@ -36,7 +36,7 @@ const sports = [
   { name: "Basketball", icon: IconeBasket, path: "/basketball" },
   { name: "Boxe Thailandaise", icon: IconeBoxeThai, path: "/boxethailandaise" },
   { name: "Capoeira", icon: IconeCapoeira, path: "/capoeira" },
-  { name: "Danse", icon: IconeDanse, path: "/ecolededanse" },
+  { name: "Ecolde De Danse", icon: IconeDanse, path: "/ecolededanse" },
   { name: "Ecole Des Sports", icon: IconeSports, path: "/ecoledessports" },
   { name: "Escrime", icon: IconeEscrime, path: "/escrime" },
   { name: "Fitness Gym Bien-être", icon: IconeFitness, path: "/fitness" },

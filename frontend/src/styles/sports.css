@@ -232,6 +232,7 @@ h4 {
   display: flex;
   justify-content: space-between;
   gap: 20%;
+  text-align: justify;
 }
 
 .methodes h4 {
@@ -329,27 +330,28 @@ h4 {
   display: flex;
   justify-content: space-evenly;
   gap: 16px;
+  margin-top: 25px;
 }
 
 .ligne-cotisations {
   display: flex;
-  align-content: space-around;
-  justify-content: flex-start;
+  margin-top: 30px;
+  justify-content: space-around;
   gap: 32px;
   flex-wrap: wrap;
 }
 
 .case-cotisation {
-  width: 140px;
+  width: 180px;
   min-height: 120px;
-  margin-bottom: 32px;
+  margin-bottom: 12px;
   padding: 12px;
   background-color: #b8bcef;
   border-radius: 8px;
   color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
   justify-content: center;
 }
 
@@ -491,10 +493,10 @@ h4 {
     margin-block-start: 2px;
   }
 
-  .h2-saisons {
+  /* .h2-saisons {
     margin-block-start: 10px;
     margin-block-end: 10px;
-  }
+  } */
 
   .infos {
     margin: 54px 12px 8px 12px;
@@ -590,5 +592,6 @@ h4 {
     font-size: 22px;
     text-align: center;
     width: 100%;
+    margin-top: 15px;
   }
 }
