@@ -258,10 +258,121 @@ const TennisDeTable = () => {
         <h2>COTISATIONS</h2>
         <hr className="ligne-titre"></hr>
         <div className="cotisations">
-          <h4>
-            TOUTES LES INFORMATIONS SONT DISPONIBLES SUR LE SITE DE l'ASF TENNIS
-            hhtps://www.asftennis.com
-          </h4>
+          <div className="cotisations-lignes">
+            <div className="ligne-cotisations">
+              <div className="case-cotisation">
+                <p>
+                  <b>VETERANS (+ 60 ans)</b>
+                </p>
+                <p className="prix-cotisation">
+                  <b>170€</b>
+                </p>
+              </div>
+              <div className="case-cotisation">
+                <p>
+                  <b>SENIORS</b>
+                </p>
+                <p className="prix-cotisation">
+                  <b>225€</b>
+                </p>
+              </div>
+              <div className="case-cotisation">
+                <p>
+                  <b>JUNIORS</b>
+                </p>
+                <p>
+                  <i>Ancien adhérent</i>
+                </p>
+                <p className="prix-cotisation">
+                  <b>185€</b>
+                </p>
+              </div>
+            </div>
+            <div className="case-cotisation">
+              <p>
+                <b>CADETS</b>
+              </p>
+              <p>
+                <i>185€</i>
+              </p>
+            </div>
+            <div className="case-cotisation">
+              <p>
+                <b>MINIMES</b>
+              </p>
+              <p className="prix-cotisation">
+                <b>185€</b>
+              </p>
+            </div>
+            <div className="case-cotisation">
+              <p>
+                <b>BENJAMINS </b>
+              </p>
+              <p className="prix-cotisation">
+                <b>160€</b>
+              </p>
+            </div>
+            <div className="case-cotisation">
+              <p>
+                <b>CORPORATIFS </b>
+              </p>
+              <p className="prix-cotisation">
+                <b>160€</b>
+              </p>
+            </div>
+            <div className="case-cotisation">
+              <p>
+                <b>ETUDIANTS </b>
+              </p>
+              <p className="prix-cotisation">
+                <b>150€</b>
+              </p>
+            </div>
+            <div className="case-cotisation">
+              <p>
+                <b>LOISIRS FAMILIAL </b>
+              </p>
+              <p className="prix-cotisation">
+                <b>150€</b>
+              </p>
+            </div>
+            <div className="case-cotisation">
+              <p>
+                <b>EXTERIEURS </b>
+              </p>
+              <p className="prix-cotisation">
+                <b>130€</b>
+              </p>
+            </div>
+            <h4>
+              Pour participer aux compétitions individuelles, à régler en sus
+              pour :{" "}
+            </h4>
+            <div className="case-cotisation">
+              <p>
+                <b>SENIORS - VETERANS</b>
+              </p>
+              <p className="prix-cotisation">
+                <b>58€</b>
+              </p>
+            </div>
+            <div className="case-cotisation">
+              <p>
+                <b>JUNIORS - CADETS - MINIMES </b>
+              </p>
+              <p className="prix-cotisation">
+                <b>50€</b>
+              </p>
+            </div>
+            <div className="case-cotisation">
+              <p>
+                <b>BENJAMINS - POUSSINS </b>
+              </p>
+              <p className="prix-cotisation">
+                <b>35€</b>
+              </p>
+            </div>
+          </div>
         </div>
         <h2>CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>

@@ -13,7 +13,7 @@ const BoxeThailandaise = () => {
         </div>
       </div>
       <div className="infos">
-        <h2>QUELQUES INFORMATIONS</h2>
+        <h2 className="h2">QUELQUES INFORMATIONS</h2>
         <hr className="ligne-titre"></hr>
         <div className="methodes">
           <h4>COURS ENSEIGNÉS</h4>
@@ -31,7 +31,7 @@ const BoxeThailandaise = () => {
         </div>
         <div className="entrainements">
           <div className="titre-entrainements">
-            <h2>ENTRAÎNEMENTS</h2>
+            <h2 className="h2">ENTRAÎNEMENTS</h2>
             <div>
               <p>
                 <b>
@@ -61,7 +61,7 @@ const BoxeThailandaise = () => {
             </p>
           </div>
         </div>
-        <h2>INSCRIPTIONS</h2>
+        <h2 className="h2">INSCRIPTIONS</h2>
         <hr className="ligne-titre"></hr>
         <div className="inscription">
           <div className="inscription-h3">
@@ -81,7 +81,7 @@ const BoxeThailandaise = () => {
             </span>
           </div>
         </div>
-        <h2>COTISATIONS</h2>
+        <h2 className="h2">COTISATIONS</h2>
         <hr className="ligne-titre"></hr>
         <div className="cotisations">
           <div className="case-cotisation">
@@ -100,7 +100,7 @@ const BoxeThailandaise = () => {
           Remise de 10% à partir du 2ème enfant lors de l'inscription en ligne
           sur MonClub avec le code de remise FRATERIE10
         </h4>
-        <h2>CONTACTS / RENSEIGNEMENTS</h2>
+        <h2 className="h2">CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>ASF ATHLÉTISME</h4>

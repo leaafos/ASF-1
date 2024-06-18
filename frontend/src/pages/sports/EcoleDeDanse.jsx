@@ -6,10 +6,10 @@ const EcoleDeDanse = () => {
     <div>
       <div className="header ecolededanse">
         <div className="nom-sport">
-          <h1>ÉCOLE DE DANSE</h1>
+          <h1 className="h1-mon-sport">ÉCOLE DE DANSE</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
@@ -345,104 +345,109 @@ const EcoleDeDanse = () => {
         </div>
         <h2>COTISATIONS</h2>
         <hr className="ligne-titre"></hr>
-        <div className="cotisations-lignes">
-          <div className="ligne-cotisations">
-            <div className="case-cotisation">
-              <p>
-                <b>DANSE CLASSIQUE:</b>
-                <br />
-                <i>9 - 11 ans</i>
-                <br />
-                <b>HIP HOP:</b>
-                <br />
-                <i>6 - 16 ans</i>
-                <br />
-                <b>DANSE JAZZ:</b>
-                <br />
-                <i>3 - 16 ans</i>
-                <br />
-                <b>STREET JAZZ :</b>
-                <br />
-                <i>6 - 16 ans</i>
-                <br />
-              </p>
-              <p className="prix-cotisation">
-                <b>255€</b>
-              </p>
-              <p>
-                <i>1 heure</i>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>DANSE CONCOURS JAZZ :</b>
-                <br />
-                <i>9 - 16 ans</i>
-                <br />
-                <b>DANSE JAZZ :</b>
-                <br />
-                <i>16 - 17 ans</i>
-              </p>
-              <p className="prix-cotisation">
-                <b>350€</b>
-              </p>
-              <p>
-                <i>1 heure 30</i>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>DANSE EXPRESSION CORPORELLE :</b>
-                <br />
-                <i>3 - 6 ans</i>
-                <br />
-                <b>ZUMBA ADULTES</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>210€</b>
-              </p>
-              <p>
-                <i>1 heure</i>
-              </p>
-            </div>
+        <div className="ligne-cotisations">
+          <div className="case-cotisation">
+            <p>
+              <b>DANSE CLASSIQUE:</b>
+              <br />
+              <i>9 - 11 ans</i>
+              <br />
+              <br />
+              <b>HIP HOP:</b>
+              <br />
+              <i>6 - 16 ans</i>
+              <br />
+              <br />
+              <b>DANSE JAZZ:</b>
+              <br />
+              <i>3 - 16 ans</i>
+              <br />
+              <br />
+              <b>STREET JAZZ :</b>
+              <br />
+              <i>6 - 16 ans</i>
+              <br />
+            </p>
+            <p className="prix-cotisation">
+              <b>255€</b>
+            </p>
+            <p>
+              <i>1 heure</i>
+            </p>
           </div>
-          <div className="ligne-cotisations">
-            <div className="case-cotisation">
-              <p>
-                <b>DANSE JAZZ ADULTES</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>380€</b>
-              </p>
-              <p>
-                <i>1 heure 30</i>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>DANSE STREET JAZZ ADULTES </b>
-              </p>
-              <p className="prix-cotisation">
-                <b>295€</b>
-              </p>
-              <p>
-                <i>1 heure</i>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>SPORT SANTÉ ADULTES</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>105€</b>
-              </p>
-              <p>
-                <i>1 heure - 10 séances</i>
-              </p>
-              <p>
-                <b>FORFAIT ANNUEL : 200€</b>
-              </p>
-            </div>
+          <div className="case-cotisation">
+            <p>
+              <b>DANSE CONCOURS JAZZ :</b>
+              <br />
+
+              <i>9 - 16 ans</i>
+              <br />
+              <br />
+              <b>DANSE JAZZ :</b>
+              <br />
+
+              <i>16 - 17 ans</i>
+            </p>
+            <p className="prix-cotisation">
+              <b>350€</b>
+            </p>
+            <p>
+              <i>1 heure 30</i>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>DANSE EXPRESSION CORPORELLE :</b>
+              <br />
+              <br />
+              <i>3 - 6 ans</i>
+              <br />
+              <br />
+              <b>ZUMBA ADULTES</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>210€</b>
+            </p>
+            <p>
+              <i>1 heure</i>
+            </p>
+          </div>
+
+          <div className="case-cotisation">
+            <p>
+              <b>DANSE JAZZ ADULTES</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>380€</b>
+            </p>
+            <p>
+              <i>1 heure 30</i>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>DANSE STREET JAZZ ADULTES </b>
+            </p>
+            <p className="prix-cotisation">
+              <b>295€</b>
+            </p>
+            <p>
+              <i>1 heure</i>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>SPORT SANTÉ ADULTES</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>105€</b>
+            </p>
+            <p>
+              <i>1 heure - 10 séances</i>
+            </p>
+            <p>
+              <b>FORFAIT ANNUEL : 200€</b>
+            </p>
           </div>
         </div>
         <h2>CONTACTS / RENSEIGNEMENTS</h2>

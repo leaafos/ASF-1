@@ -82,7 +82,10 @@ const Athletisme = () => {
             <p>
               <b>
                 MERCREDI 16H30-18H00
-                <br /> OU SAMEDI 10H15 - 12H00
+                <br />
+                <i className="i-style">OU</i>
+                <br />
+                SAMEDI 10H15 - 12H00
               </b>
             </p>
           </div>
@@ -98,13 +101,7 @@ const Athletisme = () => {
               Fontenay-aux-Roses
             </p>
             <p>
-              <b>
-                LUNDI 18H30-20H00
-                <br />
-                MERCREDI 19H00-21H00
-                <br />
-                VENDREDI 20H00-21H00
-              </b>
+              <b>LUNDI 18H30-20H00</b>
             </p>
           </div>
           <hr className="ligne"></hr>
@@ -118,11 +115,9 @@ const Athletisme = () => {
               Fontenay-aux-Roses
             </p>
             <p>
-              <b>
-                MERCREDI 18H00-20H00
-                <br />
-                VENDREDI 18H30-20H00
-              </b>
+              <b>MERCREDI - VENDREDI </b>
+              <br />
+              <b>18H30-20H</b>
             </p>
           </div>
         </div>
@@ -148,62 +143,59 @@ const Athletisme = () => {
         </div>
         <h2>COTISATIONS</h2>
         <hr className="ligne-titre"></hr>
-        <div>
-          <div className="ligne-cotisations">
-            <div className="case-cotisation">
-              <p>
-                <b>2018 ET 2019</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>190€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>2013 ET 2017</b>
-              </p>
-              <p>
-                <i>Nouvelle adhésion (prix du maillot compris)</i>
-              </p>
-              <p className="prix-cotisation">
-                <b>225€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>2013 ET 2017</b>
-              </p>
-              <p>
-                <i>Ancien adhérent</i>
-              </p>
-              <p className="prix-cotisation">
-                <b>190€</b>
-              </p>
-            </div>
+        <div className="cotisations">
+          <div className="case-cotisation">
+            <p>
+              <b>2018 ET 2019</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>190€</b>
+            </p>
           </div>
-          <div className="ligne-cotisations">
-            <div className="case-cotisation">
-              <p>
-                <b>2012 ET AVANT</b>
-              </p>
-              <p>
-                <i>Nouvelle adhésion (prix du maillot compris)</i>
-              </p>
-              <p className="prix-cotisation">
-                <b>240€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>2012 ET AVANT</b>
-              </p>
-              <p>
-                <i>Ancien adhérent</i>
-              </p>
-              <p className="prix-cotisation">
-                <b>205€</b>
-              </p>
-            </div>
+          <div className="case-cotisation">
+            <p>
+              <b>2013 ET 2017</b>
+            </p>
+            <p>
+              <i>Nouvelle adhésion (prix du maillot compris)</i>
+            </p>
+            <p className="prix-cotisation">
+              <b>225€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>2013 ET 2017</b>
+            </p>
+            <p>
+              <i>Ancien adhérent</i>
+            </p>
+            <p className="prix-cotisation">
+              <b>190€</b>
+            </p>
+          </div>
+
+          <div className="case-cotisation">
+            <p>
+              <b>2012 ET AVANT</b>
+            </p>
+            <p>
+              <i>Nouvelle adhésion (prix du maillot compris)</i>
+            </p>
+            <p className="prix-cotisation">
+              <b>240€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>2012 ET AVANT</b>
+            </p>
+            <p>
+              <i>Ancien adhérent</i>
+            </p>
+            <p className="prix-cotisation">
+              <b>205€</b>
+            </p>
           </div>
         </div>
         <h2>CONTACTS / RENSEIGNEMENTS</h2>

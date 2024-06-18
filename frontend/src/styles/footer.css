@@ -2,12 +2,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #717171;
-  margin-top: 20px;
+  background-color: white;
+  margin-top: 120px;
 }
 
 .footerText {
-  color: white;
+  color: #0913b1;
 }
 
 .logoFooter {

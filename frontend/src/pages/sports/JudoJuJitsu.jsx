@@ -277,31 +277,30 @@ const JudoJuJitsu = () => {
               </p>
             </div>
           </div>
-          <div className="ligne-cotisations">
-            <div className="case-cotisation">
-              <p>
-                <b>BENJAMINS ET MINIMES (2010 À 2013)</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>288€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>CADETS, JUNIORS ET ADULTES (JUDO 2007 ET AVANT)</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>334€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>JU JITSU (2067 ET AVANT)</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>334€</b>
-              </p>
-            </div>
+
+          <div className="case-cotisation">
+            <p>
+              <b>BENJAMINS ET MINIMES (2010 À 2013)</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>288€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>CADETS, JUNIORS ET ADULTES (JUDO 2007 ET AVANT)</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>334€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>JU JITSU (2067 ET AVANT)</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>334€</b>
+            </p>
           </div>
         </div>
         <h2>CONTACTS / RENSEIGNEMENTS</h2>

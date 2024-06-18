@@ -252,23 +252,22 @@ const VolleyBall = () => {
               </p>
             </div>
           </div>
-          <div className="ligne-cotisations">
-            <div className="case-cotisation">
-              <p>
-                <b>VOLLEY LOISIR</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>250€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>SÉNIORS COMPÉTITION (2002 et -)</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>260€</b>
-              </p>
-            </div>
+
+          <div className="case-cotisation">
+            <p>
+              <b>VOLLEY LOISIR</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>250€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>SÉNIORS COMPÉTITION (2002 et -)</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>260€</b>
+            </p>
           </div>
         </div>
         <h2>CONTACTS / RENSEIGNEMENTS</h2>

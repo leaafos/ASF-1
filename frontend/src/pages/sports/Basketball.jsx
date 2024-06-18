@@ -62,7 +62,7 @@ const BasketBall = () => {
           </div>
           <hr className="ligne-titre"></hr>
           <div className="entrainement-ligne">
-            <h4>BABIES (2017-2019) 4-6 ANS</h4>
+            <h4>BABIES </h4>
             <p>
               <b>HALLE</b>
               <br />
@@ -75,7 +75,7 @@ const BasketBall = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>U9 (2015-2016) 7-8 ANS</h4>
+            <h4>U9</h4>
             <p>
               <b>HALLE</b>
               <br />
@@ -84,7 +84,7 @@ const BasketBall = () => {
             </p>
             <p>
               <b>
-                MERCREDI 13H30-15H00
+                MERCREDI 13H-15H00
                 <br />
                 SAMEDI 10H15 - 11H30
               </b>
@@ -93,7 +93,7 @@ const BasketBall = () => {
           {/*<hr className='ligne'></hr>*/}
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>U11 (2015-2016) 9-10 ANS</h4>
+            <h4>U11</h4>
             <p>
               <b>HALLE</b>
               <br />
@@ -110,7 +110,7 @@ const BasketBall = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>U13 (2011-2012) 11-12 ANS</h4>
+            <h4>U13</h4>
             <p>
               <b>HALLE</b>
               <br />
@@ -122,15 +122,18 @@ const BasketBall = () => {
             </p>
             <p>
               <b>MARDI 17H30-19H15</b>
+              <br />
               <i> (Panorama)</i>
               <br />
+              <br />
               <b>MERCREDI 15H00-16H30</b>
+              <br />
               <i> (Jean Fournier)</i>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>U13 FÉMININE (2011-2012) 11-12 ANS</h4>
+            <h4>U13 FÉMININE </h4>
             <p>
               <b>HALLE</b>
               <br />
@@ -143,18 +146,23 @@ const BasketBall = () => {
             </p>
             <p>
               <b>MARDI 17H30 - 19H00</b>
+              <br />
               <i> (Jean Fournier)</i>
               <br />
-              <b>MARDI 17H30-19H00</b>
-              <i> (Collège Les Ormeaux)</i>
               <br />
               <b>JEUDI 18H15 - 19H30</b>
+              <br />
+              <i> (Jean Fournier)</i>
+              <br />
+              <br />
+              <b>MARDI 17H30-19H00</b>
+              <br />
               <i> (Collège Les Ormeaux)</i>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>U15 (2009-2010) 13-14 ANS</h4>
+            <h4>U15</h4>
             <p>
               <b>HALLE</b>
               <br />
@@ -166,15 +174,18 @@ const BasketBall = () => {
             </p>
             <p>
               <b>MERCREDI 16H30-18H00</b>
+              <br />
               <i> (Jean Fournier)</i>
               <br />
+              <br />
               <b>VENDREDI 17H30-19H00</b>
+              <br />
               <i> (Panorama)</i>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>U15 FÉMININE (2009-2010) 13-14 ANS</h4>
+            <h4>U15 FÉMININE</h4>
             <p>
               <b>HALLE</b>
               <br />
@@ -189,13 +200,19 @@ const BasketBall = () => {
               <b>
                 MARDI 17H30-19H00
                 <br />
+                <i> (Jean Fournier)</i>
+                <br />
+                <br />
                 JEUDI 17H30-19H00
+                <br />
+                <i> (Collège Les Ormeaux)</i>
+                <br />
               </b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>U17 ÉQUIPE 1 (2007-2008) 15-16 ANS</h4>
+            <h4>U17 - ÉQUIPE 1 </h4>
             <p>
               <b>HALLE</b>
               <br />
@@ -204,12 +221,12 @@ const BasketBall = () => {
               Fontenay-aux-Roses
             </p>
             <p>
-              <b>MARDI 19H00-20H30</b>
+              <b>VENDREDI 19H00-20H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>U17 ÉQUIPE 2 (2007-2008) 15-16 ANS</h4>
+            <h4>U17 - ÉQUIPE 2</h4>
             <p>
               <b>HALLE</b>
               <br />
@@ -225,18 +242,23 @@ const BasketBall = () => {
             </p>
             <p>
               <b>MARDI 19H15-20H15</b>
+              <br />
               <i> (Panorama)</i>
               <br />
+              <br />
               <b>MERCREDI 18H00-19H30</b>
+              <br />
               <i> (Jean Fournier)</i>
               <br />
+              <br />
               <b>JEUDI 19H00-20H30</b>
+              <br />
               <i> (Collège Les Ormeaux)</i>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>U20 RÉGION (2004-2006) 17-19 ANS</h4>
+            <h4>U20 - EQUIPE 1</h4>
             <p>
               <b>HALLE</b>
               <br />
@@ -247,13 +269,14 @@ const BasketBall = () => {
               <b>
                 MARDI 19H00-20H30
                 <br />
+                <br />
                 JEUDI 19H30-20H45
               </b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>U20 ÉQUIPE 2 (2004-2006) 17-19 ANS</h4>
+            <h4>U20 - ÉQUIPE 2 </h4>
             <p>
               <b>HALLE</b>
               <br />
@@ -268,15 +291,23 @@ const BasketBall = () => {
               <b>
                 MARDI 19H00-20H30
                 <br />
+                <i className="i-style"> (Jean Fournier)</i>
+                <br />
+                <br />
                 MERCREDI 19H30-21H00
                 <br />
+                <i className="i-style"> (Jean Fournier)</i>
+                <br />
+                <br />
                 MARDI 19H-20H30
+                <br />
+                <i className="i-style"> (Collège Les Ormeaux)</i>
               </b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>SÉNIORS ÉQUIPE 1 (1978-2003) 20-45 ANS</h4>
+            <h4>SÉNIORS - ÉQUIPE 1</h4>
             <p>
               <b>HALLE</b>
               <br />
@@ -289,21 +320,25 @@ const BasketBall = () => {
             </p>
             <p>
               <b>LUNDI 20H30-22h</b>
+              <br />
               <i> (Gymnase du Parc)</i>
               <br />
               <b>MERCREDI 20H30-22h</b>
+              <br />
               <i> (Gymnase du Parc)</i>
               <br />
               <b>JEUDI 20H30-22H30</b>
+              <br />
               <i> (Jean Fournier)</i>
               <br />
               <b>MARDI 20H45-22H30</b>
+              <br />
               <i> (Jean Fournier)</i>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>SÉNIORS ÉQUIPE 2 (1978-2003) 20-45 ANS</h4>
+            <h4>SÉNIORS - ÉQUIPE 2</h4>
             <p>
               <b>HALLE</b>
               <br />

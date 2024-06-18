@@ -232,6 +232,7 @@ h4 {
   display: flex;
   justify-content: space-between;
   gap: 20%;
+  text-align: justify;
 }
 
 .methodes h4 {
@@ -314,7 +315,7 @@ h4 {
 }
 
 .lien {
-  color: #b8bcef;
+  color: #0913b1;
   text-decoration: underline;
 }
 
@@ -329,31 +330,33 @@ h4 {
   display: flex;
   justify-content: space-evenly;
   gap: 16px;
+  margin-top: 25px;
 }
 
 .ligne-cotisations {
   display: flex;
-  align-content: space-around;
-  justify-content: flex-start;
+  margin-top: 30px;
+  justify-content: space-around;
   gap: 32px;
+  flex-wrap: wrap;
 }
 
 .case-cotisation {
-  width: 280px;
-  min-height: 240px;
-  margin-bottom: 32px;
+  width: 180px;
+  min-height: 120px;
+  margin-bottom: 12px;
   padding: 12px;
   background-color: #b8bcef;
   border-radius: 8px;
   color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
   justify-content: center;
 }
 
 .prix-cotisation {
-  font-size: 52px;
+  font-size: 25px;
 }
 
 .prix-cotisation-gym {
@@ -408,13 +411,17 @@ h4 {
 }
 
 .email {
-  color: #b8bcef;
+  color: #0913b1;
   text-decoration: underline;
   padding: 16px;
 }
 
 .i-style {
   font-weight: lighter;
+}
+
+.label {
+  font-weight: bolder;
 }
 
 /**********************
@@ -508,23 +515,41 @@ h4 {
 
   .nom-sport {
     margin-left: 16px;
+    margin-block-end: 2px;
+  }
+
+  .h1-mon-sport {
+    margin-block-start: 10px;
+    margin-block-end: 10px;
   }
 
   .saison {
     margin-right: 16px;
+    margin-block-start: 2px;
   }
 
+  /* .h2-saisons {
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+  } */
+
   .infos {
-    margin: 64px 16px 8px 16px;
+    margin: 54px 12px 8px 12px;
+    text-align: justify;
+    padding: 4px;
   }
 
   .methodes {
     display: block;
     margin-bottom: 48px;
+    padding: 5px;
   }
 
   .methodes h4 {
     width: 100%;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    text-align: center;
   }
 
   .titre-entrainements {
@@ -564,15 +589,22 @@ h4 {
 
   .inscription {
     display: block;
+    margin: 0;
+    padding: 5px;
   }
 
-  .inscription h4 {
+  .inscription-h3 {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    align-items: center;
+    text-align: center;
   }
 
   .cotisations {
     width: 100%;
     flex-direction: column;
+    align-items: center;
   }
 
   .ligne-cotisations {
@@ -580,11 +612,21 @@ h4 {
   }
 
   .contacts {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   .contacts h4 {
-    width: 60%;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
     color: #0913b1;
+  }
+
+  .h2 {
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
   }
 }
