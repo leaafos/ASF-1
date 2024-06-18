@@ -7,7 +7,6 @@ frontend:
         - npm ci
     build:
       commands:
-        - cd frontend
         - npm run build
   artifacts:
     baseDirectory: frontend/build
@@ -24,7 +23,6 @@ backend:
         - npm ci
     build:
       commands:
-        - cd backend
         - npm run build
   artifacts:
     baseDirectory: backend/build
