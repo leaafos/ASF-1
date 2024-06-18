@@ -360,6 +360,37 @@ h4 {
   font-size: 24px;
 }
 
+.menu-deroulant {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.menu-deroulant span {
+  margin-left: 12px;
+  margin-bottom: 4px;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.autres-moyens p {
+  color: black;
+}
+
+.remise {
+  background-image: url("../images/Sports/ampoule.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.remise h4 {
+  margin-left: 36px;
+}
+
+.gras {
+  color: #0913B1;
+}
+
 .contacts {
   display: flex;
   align-items: center;

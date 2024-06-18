@@ -184,6 +184,62 @@ const Aikido = () => {
             </p>
           </div>
         </div>
+        <div className='paiement'>
+            <h3>MOYENS DE PAIEMENT</h3>
+              <div>
+                <ul>
+                  <li>
+                    <h4>CARTE BANCAIRE</h4>
+                      <p>(en une seule fois)</p>
+                  </li>
+                  <li>
+                    <h4>SEPA (PRÉLÈVEMENTS)</h4>
+                    <p>(en 3 fois)</p>
+                  </li>
+                  <li>
+                    <h4 onClick={handleToggle} className='menu-deroulant'>
+                      AUTRES MOYENS
+                      <span>
+                        {showOthers ? 'v' : '>'}
+                      </span>
+                    </h4>
+                    {showOthers && (
+                      <div className='autres-moyens'>
+                        <h4>Si Bénéficiaire d'Aides :</h4>
+                        <p>ANVC (coupons sport, chèque-vacances), Coup de pouce loisirs (CAF), Pass+, Pass'sport, Chèque sport, Labaz, Coupon Sceaux</p>
+                        <p><i>(Uniquement : Athlétisme, Badminton (en compétition), Gymnastique Rythmique, Gymnastique Artistique, Handball, Rugby, Squash, VolleyBall)</i></p>
+                                
+                        <h4>Par chèque(s) :</h4>
+                        <p>(5 fois maximum - à l'ordre de l'ASF) </p>
+                                    
+                        <h4>Par espèces : </h4>
+                        <p>(en 1 seule fois)</p>
+                        <div  className='remise'>
+                          <h4>La remise se fera : </h4>
+                        </div>
+                        <p>Au Forum des Associations le <b className='gras'> 08 septembre</b> au Gymnase du Parc entre 10h00 et 18h00</p>
+                        <p>OU</p>
+                        <p>Auprès de l'Accueil / Secrétariat de l'ASF - 10 place du château Ste Barbe - 2ème Étage - Porte 7</p>
+                                    
+                        <h4>Par virement : </h4>
+                        <p>(en 1 seule fois)</p>
+                        <ul>
+                        <li>Se rapprocher de la section pour obtenir le RIB</li>
+                        <li>Se connecter à l'application de votre banque en ligne - Sélectionner virement</li>
+                        <li>Ajouter un nouveau bénéficiaire</li>
+                        <li>Indiquer <b className='gras'>obligatoirement</b> le motif du virement</li>
+                        <ul>
+                            <li>a. Section concernée + Nom et Prénom de l'enfant si inscription d'un mineur ou de l'adulte inscrit </li>
+                            <li>b. Exemple : ASF VOLLEY - enfant AZEERTYUI Noémie ou ASF VOLLEY - adulte AZERTYUI Marc</li>
+                        </ul>
+                        <li>Effectuer le virement</li>
+                      </ul>
+                    </div>
+                  )}
+              </li>
+          </ul>
+        </div>
+        </div>
         <h2>CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
         <div className="contacts">
