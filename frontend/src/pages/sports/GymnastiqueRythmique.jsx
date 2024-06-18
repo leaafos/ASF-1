@@ -198,31 +198,30 @@ const GymnastiqueRythmique = () => {
               </p>
             </div>
           </div>
-          <div className="ligne-cotisations">
-            <div className="case-cotisation">
-              <p>
-                <b>3 HEURES</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>532€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>4 HEURES</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>624€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>GR ADULTES</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>210€</b>
-              </p>
-            </div>
+
+          <div className="case-cotisation">
+            <p>
+              <b>3 HEURES</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>532€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>4 HEURES</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>624€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>GR ADULTES</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>210€</b>
+            </p>
           </div>
           <h4>
             Remise de 10% à partir du 2ème enfant lors de l'inscription en ligne

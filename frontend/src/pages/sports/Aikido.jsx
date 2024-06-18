@@ -6,17 +6,17 @@ const Aikido = () => {
     <div>
       <div className="header aikido">
         <div className="nom-sport">
-          <h1>AIKIDO</h1>
+          <h1 className="h1-mon-sport">AIKIDO</h1>
         </div>
         <div className="saison">
-          <h2>SAISON 2024-2025</h2>
+          <h2 className="h2-saisons">SAISON 2024-2025</h2>
         </div>
       </div>
       <div className="infos">
-        <h2>QUELQUES INFORMATIONS</h2>
+        <h2 className="h2">QUELQUES INFORMATIONS</h2>
         <hr className="ligne-titre"></hr>
         <div className="methodes">
-          <h4>MÉTHODES ENSEIGNÉES</h4>
+          <h4 className="methodes h4">MÉTHODES ENSEIGNÉES</h4>
           <p>
             "La voie de l'union ou de l'harmonie des énergies" : (Aï : union -
             harmonie, Ki : énergie, Do : voie). <br />
@@ -45,7 +45,7 @@ const Aikido = () => {
         </div>
         <div className="entrainements">
           <div className="titre-entrainements">
-            <h2>ENTRAÎNEMENTS</h2>
+            <h2 className="h2">ENTRAÎNEMENTS</h2>
             <div>
               <p>
                 <b>
@@ -128,7 +128,7 @@ const Aikido = () => {
             </p>
           </div>
         </div>
-        <h2>INSCRIPTIONS</h2>
+        <h2 className="h2">INSCRIPTIONS</h2>
         <hr className="ligne-titre"></hr>
         <div className="inscription">
           <div className="inscription-h3">
@@ -148,7 +148,7 @@ const Aikido = () => {
             </span>
           </div>
         </div>
-        <h2>COTISATIONS</h2>
+        <h2 className="h2">COTISATIONS</h2>
         <hr className="ligne-titre"></hr>
         <div className="cotisations">
           <div className="case-cotisation">
@@ -184,7 +184,7 @@ const Aikido = () => {
             </p>
           </div>
         </div>
-        <h2>CONTACTS / RENSEIGNEMENTS</h2>
+        <h2 className="h2">CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>PROFESSEUR BENOIT CROZIER</h4>

@@ -13,7 +13,7 @@ const Handball = () => {
         </div>
       </div>
       <div className="infos">
-        <h2>QUELQUES INFORMATIONS</h2>
+        <h2 className="h2">QUELQUES INFORMATIONS</h2>
         <hr className="ligne-titre"></hr>
         <div className="methodes">
           <h4>COURS ENSEIGNÉS</h4>
@@ -53,7 +53,7 @@ const Handball = () => {
         </div>
         <div className="entrainements">
           <div className="titre-entrainements">
-            <h2>ENTRAÎNEMENTS</h2>
+            <h2 className="h2">ENTRAÎNEMENTS</h2>
             <div>
               <p>
                 <b>
@@ -400,7 +400,7 @@ const Handball = () => {
             </p>
           </div>
         </div>
-        <h2>INSCRIPTIONS</h2>
+        <h2 className="h2">INSCRIPTIONS</h2>
         <hr className="ligne-titre"></hr>
         <div className="inscription">
           <div className="inscription-h3">
@@ -420,65 +420,63 @@ const Handball = () => {
             </span>
           </div>
         </div>
-        <h2>COTISATIONS</h2>
+        <h2 className="h2">COTISATIONS</h2>
         <hr className="ligne-titre"></hr>
         <div>
           <div className="ligne-cotisations">
             <div className="case-cotisation">
               <p>
-                <b>PREMIERS PAS / MINI HAND (3 - 4 ANS)</b>
+                <b>PREMIERS PAS</b>
               </p>
               <p className="prix-cotisation">
-                <b>150€</b>
+                <b>160€</b>
               </p>
             </div>
             <div className="case-cotisation">
               <p>
-                <b>MOINS DE 9 ANS</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>190€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>MOINS DE 11 ANS</b>
+                <b>M7</b>
               </p>
               <p className="prix-cotisation">
                 <b>200€</b>
               </p>
             </div>
-          </div>
-          <div className="ligne-cotisations">
             <div className="case-cotisation">
               <p>
-                <b>MOINS DE 13 ANS</b>
+                <b>M9</b>
               </p>
               <p className="prix-cotisation">
-                <b>205€</b>
+                <b>200€</b>
+              </p>
+            </div>
+
+            <div className="case-cotisation">
+              <p>
+                <b>M11</b>
+              </p>
+              <p className="prix-cotisation">
+                <b>210€</b>
               </p>
             </div>
             <div className="case-cotisation">
               <p>
-                <b>MOINS DE 15 ANS MASCULINS</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>215€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>MOINS DE 18 ANS MASCULINS</b>
+                <b>M13</b>
               </p>
               <p className="prix-cotisation">
                 <b>225€</b>
               </p>
             </div>
-          </div>
-          <div className="ligne-cotisations">
             <div className="case-cotisation">
               <p>
-                <b>PLUS DE 15 ANS MASCULINS</b>
+                <b>M15</b>
+              </p>
+              <p className="prix-cotisation">
+                <b>235€</b>
+              </p>
+            </div>
+
+            <div className="case-cotisation">
+              <p>
+                <b>M18</b>
               </p>
               <p className="prix-cotisation">
                 <b>250€</b>
@@ -486,18 +484,25 @@ const Handball = () => {
             </div>
             <div className="case-cotisation">
               <p>
-                <b>LOISIRS MIXTE</b>
+                <b>P16</b>
               </p>
               <p className="prix-cotisation">
-                <b>165€</b>
+                <b>270€</b>
               </p>
             </div>
             <div className="case-cotisation">
               <p>
-                <b>HANDFIT MIXTE</b>
+                <b>LOISIRS</b>
               </p>
+              <p className="prix-cotisation">
+                <b>180€</b>
+              </p>
+            </div>
+          </div>
+          <div className="ligne-cotisations">
+            <div className="case-cotisation">
               <p>
-                <i>2 séances - 220€</i>
+                <b>HANDFIT</b>
               </p>
               <p className="prix-cotisation">
                 <b>190€</b>
@@ -506,9 +511,20 @@ const Handball = () => {
                 <i>La séance</i>
               </p>
             </div>
+            <div className="case-cotisation">
+              <p>
+                <b>HANDFIT</b>
+              </p>
+              <p className="prix-cotisation">
+                <b>220€</b>
+              </p>
+              <p>
+                <i>2 séances</i>
+              </p>
+            </div>
           </div>
         </div>
-        <h2>CONTACTS / RENSEIGNEMENTS</h2>
+        <h2 className="h2">CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>PRÉSIDENT MICHAËL LARONDE : </h4>

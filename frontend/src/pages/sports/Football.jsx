@@ -397,35 +397,35 @@ const Football = () => {
               </p>
             </div>
           </div>
-          <div className="ligne-cotisations">
-            <div className="case-cotisation">
-              <p>
-                <b>SÉNIORS</b>
-              </p>
-              <p>
-                <i>Renouvellement 230€</i>
-              </p>
-              <p className="prix-cotisation">
-                <b>285€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>FÉMININES ET VÉTÉRANS</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>195€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>FUTSAL ADULTES </b>
-              </p>
-              <p className="prix-cotisation">
-                <b>200€</b>
-              </p>
-            </div>
+
+          <div className="case-cotisation">
+            <p>
+              <b>SÉNIORS</b>
+            </p>
+            <p>
+              <i>Renouvellement 230€</i>
+            </p>
+            <p className="prix-cotisation">
+              <b>285€</b>
+            </p>
           </div>
+          <div className="case-cotisation">
+            <p>
+              <b>FÉMININES ET VÉTÉRANS</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>195€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>FUTSAL ADULTES </b>
+            </p>
+            <p className="prix-cotisation">
+              <b>200€</b>
+            </p>
+          </div>
+
           <div>
             <h4>ÉQUIMENET D'ENTRAÎNEMENT ET DE MATCH + LICENSE FFF COMPRIS</h4>
             <p>

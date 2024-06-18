@@ -179,24 +179,24 @@ const Rugby = () => {
               </p>
             </div>
           </div>
-          <div className="ligne-cotisations">
-            <div className="case-cotisation">
-              <p>
-                <b>FOLKLOS</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>220€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>RUGBY À 5 MIXTE</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>130€</b>
-              </p>
-            </div>
+
+          <div className="case-cotisation">
+            <p>
+              <b>FOLKLOS</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>220€</b>
+            </p>
           </div>
+          <div className="case-cotisation">
+            <p>
+              <b>RUGBY À 5 MIXTE</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>130€</b>
+            </p>
+          </div>
+
           <h4>
             Remise lors de l'inscription en ligne sur MonClub avec les codes
             suivants : <br />

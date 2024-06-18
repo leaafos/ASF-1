@@ -268,129 +268,125 @@ const Natation = () => {
               </p>
             </div>
           </div>
-          <div className="ligne-cotisations">
-            <div className="case-cotisation">
-              <p>
-                <b>PETITS BAIGNEURS HORS COMMUNE</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>170€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>JEUNES 6 À 18 ANS FONTENAISIENS</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>150€</b>
-              </p>
-              <p>(1H PAR SEMAINE)</p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>JEUNES 6 À 18 ANS HORS COMMUNE</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>160€</b>
-              </p>
-              <p>(1H PAR SEMAINE)</p>
-            </div>
+
+          <div className="case-cotisation">
+            <p>
+              <b>PETITS BAIGNEURS HORS COMMUNE</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>170€</b>
+            </p>
           </div>
-          <div className="ligne-cotisations">
-            <div className="case-cotisation">
-              <p>
-                <b>HANDISPORT JEUNES</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>125€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>HANDISPORT ADULTES</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>155€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>ADULTES FONTENAISIENS </b>
-              </p>
-              <p className="prix-cotisation">
-                <b>170€</b>
-              </p>
-              <p>(1H PAR SEMAINE)</p>
-              <p className="prix-cotisation">
-                <b>240€</b>
-              </p>
-              <p>(2H PAR SEMAINE)</p>
-            </div>
+          <div className="case-cotisation">
+            <p>
+              <b>JEUNES 6 À 18 ANS FONTENAISIENS</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>150€</b>
+            </p>
+            <p>(1H PAR SEMAINE)</p>
           </div>
-          <div className="ligne-cotisations">
-            <div className="case-cotisation">
-              <p>
-                <b>ADULTES HORS COMMUNE</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>205€</b>
-              </p>
-              <p>(1H PAR SEMAINE)</p>
-              <p className="prix-cotisation">
-                <b>270€</b>
-              </p>
-              <p>(2H PAR SEMAINE)</p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>AQUAGYM FONTENAISIENS</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>190€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>AQUAGYM HORS COMMUNE</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>210€</b>
-              </p>
-            </div>
+          <div className="case-cotisation">
+            <p>
+              <b>JEUNES 6 À 18 ANS HORS COMMUNE</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>160€</b>
+            </p>
+            <p>(1H PAR SEMAINE)</p>
           </div>
-          <div className="ligne-cotisations">
-            <div className="case-cotisation">
-              <p>
-                <b>AQUA BIKE FONTENAISIENS</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>420€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>AQUA BIKE HORS COMMUNE</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>480€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>LES AÎNÉS FONTENAISIENS</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>162€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>LES AÎNÉS HORS COMMUNE</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>183€</b>
-              </p>
-            </div>
+
+          <div className="case-cotisation">
+            <p>
+              <b>HANDISPORT JEUNES</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>125€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>HANDISPORT ADULTES</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>155€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>ADULTES FONTENAISIENS </b>
+            </p>
+            <p className="prix-cotisation">
+              <b>170€</b>
+            </p>
+            <p>(1H PAR SEMAINE)</p>
+            <p className="prix-cotisation">
+              <b>240€</b>
+            </p>
+            <p>(2H PAR SEMAINE)</p>
+          </div>
+
+          <div className="case-cotisation">
+            <p>
+              <b>ADULTES HORS COMMUNE</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>205€</b>
+            </p>
+            <p>(1H PAR SEMAINE)</p>
+            <p className="prix-cotisation">
+              <b>270€</b>
+            </p>
+            <p>(2H PAR SEMAINE)</p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>AQUAGYM FONTENAISIENS</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>190€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>AQUAGYM HORS COMMUNE</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>210€</b>
+            </p>
+          </div>
+
+          <div className="case-cotisation">
+            <p>
+              <b>AQUA BIKE FONTENAISIENS</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>420€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>AQUA BIKE HORS COMMUNE</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>480€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>LES AÎNÉS FONTENAISIENS</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>162€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>LES AÎNÉS HORS COMMUNE</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>183€</b>
+            </p>
           </div>
         </div>
         <h2>CONTACTS / RENSEIGNEMENTS</h2>

@@ -359,60 +359,59 @@ const GymnastiqueArtistique = () => {
               </p>
             </div>
           </div>
-          <div className="ligne-cotisations">
-            <div className="case-cotisation">
-              <p>
-                <b>FITNESS 1H30</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>210€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>GYM AUX AGRÉES</b>
-              </p>
-              <p className="prix-cotisation-gym">
-                <b>
-                  1H30 - 265€
-                  <br />
-                  2H00 - 320€
-                  <br />
-                  4H00 - 420€
-                  <br />
-                  6H00 - 485€
-                </b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>ATELIER MOTRICITÉ</b>
-              </p>
-              <p>
-                <i>60€ les 5 séances (possibilité 1 séance à l'essai)</i>
-              </p>
-              <p className="prix-cotisation-gym">
-                <b>15€</b>
-              </p>
-              <p>
-                <i>La séance</i>
-              </p>
-            </div>
+
+          <div className="case-cotisation">
+            <p>
+              <b>FITNESS 1H30</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>210€</b>
+            </p>
           </div>
           <div className="case-cotisation">
             <p>
-              <b>YOGA PRÉ ET POST NATAL</b>
+              <b>GYM AUX AGRÉES</b>
+            </p>
+            <p className="prix-cotisation-gym">
+              <b>
+                1H30 - 265€
+                <br />
+                2H00 - 320€
+                <br />
+                4H00 - 420€
+                <br />
+                6H00 - 485€
+              </b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>ATELIER MOTRICITÉ</b>
             </p>
             <p>
-              <i>50€ les 5 séances (possibilité 1 séance à l'essai)</i>
+              <i>60€ les 5 séances (possibilité 1 séance à l'essai)</i>
             </p>
-            <p className="prix-cotisation">
-              <b>12€</b>
+            <p className="prix-cotisation-gym">
+              <b>15€</b>
             </p>
             <p>
               <i>La séance</i>
             </p>
           </div>
+        </div>
+        <div className="case-cotisation">
+          <p>
+            <b>YOGA PRÉ ET POST NATAL</b>
+          </p>
+          <p>
+            <i>50€ les 5 séances (possibilité 1 séance à l'essai)</i>
+          </p>
+          <p className="prix-cotisation">
+            <b>12€</b>
+          </p>
+          <p>
+            <i>La séance</i>
+          </p>
         </div>
         <h2>CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>

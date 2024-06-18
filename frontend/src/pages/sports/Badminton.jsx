@@ -13,7 +13,7 @@ const Badminton = () => {
         </div>
       </div>
       <div className="infos">
-        <h2>QUELQUES INFORMATIONS</h2>
+        <h2 className="h2">QUELQUES INFORMATIONS</h2>
         <hr className="ligne-titre"></hr>
         <div className="methodes">
           <h4>AVANT L'INSCRIPTION</h4>
@@ -29,7 +29,7 @@ const Badminton = () => {
         </div>
         <div className="entrainements">
           <div className="titre-entrainements">
-            <h2>ENTRAÎNEMENTS</h2>
+            <h2 className="h2">ENTRAÎNEMENTS</h2>
             <div>
               <p>
                 <b>
@@ -146,7 +146,7 @@ const Badminton = () => {
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
-            <h4>LOISIR DÉBUTANT</h4>
+            <h4>LOISIRS DÉBUTANT</h4>
             <p>
               <b>HALLE</b>
               <br />
@@ -159,7 +159,7 @@ const Badminton = () => {
             </p>
           </div>
         </div>
-        <h2>INSCRIPTIONS</h2>
+        <h2 className="h2">INSCRIPTIONS</h2>
         <hr className="ligne-titre"></hr>
         <div className="inscription">
           <div className="inscription-h3">
@@ -179,64 +179,61 @@ const Badminton = () => {
             </span>
           </div>
         </div>
-        <h2>COTISATIONS</h2>
+        <h2 className="h2">COTISATIONS</h2>
         <hr className="ligne-titre"></hr>
-        <div className="cotisations-lignes">
-          <div className="ligne-cotisations">
-            <div className="case-cotisation">
-              <p>
-                <b>MOINS DE 9 ANS</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>150€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>9 À 18 ANS ET ÉTUDIANTS</b>
-              </p>
-              <p>
-                <i>1 séance/semaine</i>
-              </p>
-              <p className="prix-cotisation">
-                <b>170€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>9 À 18 ANS</b>
-              </p>
-              <p>
-                <i>1 séance/semaine</i>
-              </p>
-              <p className="prix-cotisation">
-                <b>220€</b>
-              </p>
-            </div>
+        <div className="cotisations">
+          <div className="case-cotisation">
+            <p>
+              <b>MOINS DE 9 ANS</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>150€</b>
+            </p>
           </div>
-          <div className="ligne-cotisations">
-            <div className="case-cotisation">
-              <p>
-                <b>ADULTES</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>195€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>ADULTES</b>
-              </p>
-              <p>
-                <i>avec Entraînement Compétition</i>
-              </p>
-              <p className="prix-cotisation">
-                <b>230€</b>
-              </p>
-            </div>
+          <div className="case-cotisation">
+            <p>
+              <b>9 À 18 ANS ET ÉTUDIANTS</b>
+            </p>
+            <p>
+              <i>1 séance/semaine</i>
+            </p>
+            <p className="prix-cotisation">
+              <b>170€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>9 À 18 ANS</b>
+            </p>
+            <p>
+              <i>1 séance/semaine</i>
+            </p>
+            <p className="prix-cotisation">
+              <b>220€</b>
+            </p>
+          </div>
+
+          <div className="case-cotisation">
+            <p>
+              <b>ADULTES</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>195€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>ADULTES</b>
+            </p>
+            <p>
+              <i>avec Entraînement Compétition</i>
+            </p>
+            <p className="prix-cotisation">
+              <b>230€</b>
+            </p>
           </div>
         </div>
-        <h2>CONTACTS / RENSEIGNEMENTS</h2>
+        <h2 className="h2">CONTACTS / RENSEIGNEMENTS</h2>
         <hr className="ligne-titre"></hr>
         <div className="contacts">
           <h4>PRÉSIDENT GOEFFREY GUYOT :</h4>

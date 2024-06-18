@@ -27,18 +27,6 @@ const Accueil = () => {
     },
 
     {
-      title: "Stage Handball",
-      photo: stageHandball,
-      informations: `<ul>
-                     <li>Tout public (Adhérent ou non adhérent à l'ASF)</li>
-                      <li>De 7 à 11 ans </li>
-                      <li>De 9h à 17h</li>
-                    </ul>`,
-      date: "8 Juillet au 12 juillet",
-      location: "Halle du Panorama",
-      contact: "Hugo Brutelle : 06 11 75 85 35",
-    },
-    {
       title: "Stage Tennis de Table",
       photo: stageTennisDeTable,
       informations: `<ul>
@@ -51,6 +39,20 @@ const Accueil = () => {
       contact:
         "Rémi RICHARD - Secrétaire/Correspondant sportif : richard.r13p@free.fr",
     },
+
+    {
+      title: "Stage Handball",
+      photo: stageHandball,
+      informations: `<ul>
+                     <li>Tout public (Adhérent ou non adhérent à l'ASF)</li>
+                      <li>De 7 à 11 ans </li>
+                      <li>De 9h à 17h</li>
+                    </ul>`,
+      date: "8 Juillet au 12 juillet",
+      location: "Halle du Panorama",
+      contact: "Hugo Brutelle : 06 11 75 85 35",
+    },
+
     {
       title: "Stage Tennis",
       photo: stageTennis,

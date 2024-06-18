@@ -49,26 +49,28 @@ const KungFu = () => {
           <div className="entrainement-ligne">
             <h4>6 - 12 ANS</h4>
             <p>
-              <b>SALLE DE DANSE</b>
+              <b>Dojo</b>
               <br />
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase collège les Ormeaux, 15 Rue D'Estienne d'Orves, 92260
+              Fontenay-aux-Roses
             </p>
             <p>
-              <b>JEUDI 18H00-19H00</b>
+              <b>JEUDI 17H30-18H30</b>
             </p>
           </div>
           <hr className="ligne"></hr>
           <div className="entrainement-ligne">
             <h4>12 - 17 ANS</h4>
             <p>
-              <b>SALLE DE DANSE</b>
+              <b>Dojo</b>
               <br />
               <br />
-              Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
+              Gymnase collège les Ormeaux, 15 Rue D'Estienne d'Orves, 92260
+              Fontenay-aux-Roses
             </p>
             <p>
-              <b>JEUDI 19H00-20H00</b>
+              <b>JEUDI 18H30-19H30</b>
             </p>
           </div>
           {/*<hr className='ligne'></hr>*/}
@@ -82,7 +84,7 @@ const KungFu = () => {
               Gymnase Jean Fournier 7 Rue des Potiers, 92260 Fontenay-aux-Roses
             </p>
             <p>
-              <b>JEUDI 21H15-22H30</b>
+              <b>LUNDI - JEUDI 21H30-22H30</b>
             </p>
           </div>
         </div>
@@ -115,7 +117,7 @@ const KungFu = () => {
                 <b>6 - 12 ANS</b>
               </p>
               <p className="prix-cotisation">
-                <b>227€</b>
+                <b>230€</b>
               </p>
             </div>
             <div className="case-cotisation">
@@ -123,7 +125,7 @@ const KungFu = () => {
                 <b>13 - 17 ANS</b>
               </p>
               <p className="prix-cotisation">
-                <b>257€</b>
+                <b>260€</b>
               </p>
             </div>
             <div className="case-cotisation">
