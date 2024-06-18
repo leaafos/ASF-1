@@ -27,7 +27,7 @@ backend:
         - cd ../frontend
         - npm ci
         - npm run build
-        - cp -r build ../backend
+        - xcopy /E /I build ..\\backend\\build
   artifacts:
     baseDirectory: backend/build
     files:

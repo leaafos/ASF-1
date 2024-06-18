@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node index.js",
     "build": "npm run build:ui",
-    "build:ui": "rimraf build && cd ../frontend/ && npm run build && rimraf build ../backend",
+    "build:ui": "rimraf build && cd ../frontend/ && npm run build && xcopy /E /I build ..\\backend\\build",
     "deploy": "fly deploy",
     "deploy:full": "npm run build:ui && npm run deploy",
     "logs:prod": "fly logs",
