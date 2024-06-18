@@ -132,15 +132,28 @@ const Aikido = () => {
         <hr className="ligne-titre"></hr>
         <div className="inscription">
           <div className="inscription-h3">
-            <h3>Guide inscription à destination de nos adhérent(e)s : </h3>
+            <h3>GUIDE D'INSCRIPTION À DESTINATION DE NOS ADHÉRENT(E)S : </h3>
             <span>
               <a href="https://teamrsport.notion.site/Refonte-du-parcours-d-inscription-sur-le-web-16bd9422267c47d18b69570fd2fe34ab">
-                Parcours d'inscription sur le web
+                PARCOURS D'INSCRIPTION SUR LE WEB
               </a>
             </span>
+            <p>Il s'agit d'une page du site internet de MonClub qui explique aux adhérents comment s'inscrire pour la première fois avec MonClub ou bien comment se connecter si un compte a déjà été créé.</p>
           </div>
           <div className="inscription-h3">
-            <h3>Inscription en ligne :</h3>
+            <h3>DISPOSITIF CERTIFICAT MÉDICAL POUR LE SPORT - INFORMATIONS ADHÉRENT : </h3>
+            <span>
+              <a href="">
+                CLIQUEZ ICI
+              </a>
+            </span>
+            <h5>Mineur : </h5>
+            <p>Questionnaire de santé (à garder par l'adhérent) ou Certificat Médical (si + de 3 ans) si nouveau ou souhait de la section. </p>
+            <h5>Majeur : </h5>
+            <p>Questionnaire de santé (à garder par l'adhérent) ou Certificat Médical (si + de 3 ans) si nouveau ou souhait de la section. </p>
+          </div>
+          <div className="inscription-h3">
+            <h3>INSCRIPTION EN LIGNE :</h3>
             <span className="lien">
               <a href="https://asfontenaisienne.monclub.app/">
                 LIEN D'INSCRIPTION
