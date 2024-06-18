@@ -315,7 +315,7 @@ h4 {
 }
 
 .lien {
-  color: #b8bcef;
+  color: #0913b1;
   text-decoration: underline;
 }
 
@@ -380,13 +380,17 @@ h4 {
 }
 
 .email {
-  color: #b8bcef;
+  color: #0913b1;
   text-decoration: underline;
   padding: 16px;
 }
 
 .i-style {
   font-weight: lighter;
+}
+
+.label {
+  font-weight: bolder;
 }
 
 /**********************
