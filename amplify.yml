@@ -4,11 +4,11 @@ frontend:
     preBuild:
       commands:
         - cd frontend
-          - npm ci
+        - npm ci
     build:
       commands:
         - cd frontend
-        - "npm run build"
+        - npm run build
   artifacts:
     baseDirectory: frontend/build
     files:
@@ -16,3 +16,20 @@ frontend:
   cache:
     paths:
       - frontend/node_modules/**/*
+backend:
+  phases:
+    preBuild:
+      commands:
+        - cd backend
+        - npm ci
+    build:
+      commands:
+        - cd backend
+        - npm run build
+  artifacts:
+    baseDirectory: backend/build
+    files:
+      - "**/*"
+  cache:
+    paths:
+      - backend/node_modules/**/*
