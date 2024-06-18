@@ -23,7 +23,11 @@ backend:
         - npm ci
     build:
       commands:
+        - rimraf build
+        - cd ../frontend
+        - npm ci
         - npm run build
+        - cp -r build ../backend
   artifacts:
     baseDirectory: backend/build
     files:
@@ -31,3 +35,4 @@ backend:
   cache:
     paths:
       - backend/node_modules/**/*
+      - frontend/node_modules/**/*
