@@ -71,7 +71,7 @@ const sports = [
   { name: "Yoga", icon: IconeYoga, path: "/yoga" },
 ];
 
-const ListeIcones = () => {
+const SlideShowIcones = () => {
   const scrollContainerRef = useRef(null);
 
   const scrollLeft = () => {
@@ -111,4 +111,4 @@ const ListeIcones = () => {
   );
 };
 
-export default ListeIcones;
+export default SlideShowIcones;
