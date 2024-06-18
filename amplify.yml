@@ -23,7 +23,7 @@ backend:
         - npm ci
     build:
       commands:
-        - rimraf build
+        - npx rimraf build
         - cd ../frontend
         - npm ci
         - npm run build
