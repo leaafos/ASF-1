@@ -406,43 +406,42 @@ const EcoleDeDanse = () => {
               </p>
             </div>
           </div>
-          <div className="ligne-cotisations">
-            <div className="case-cotisation">
-              <p>
-                <b>DANSE JAZZ ADULTES</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>380€</b>
-              </p>
-              <p>
-                <i>1 heure 30</i>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>DANSE STREET JAZZ ADULTES </b>
-              </p>
-              <p className="prix-cotisation">
-                <b>295€</b>
-              </p>
-              <p>
-                <i>1 heure</i>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>SPORT SANTÉ ADULTES</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>105€</b>
-              </p>
-              <p>
-                <i>1 heure - 10 séances</i>
-              </p>
-              <p>
-                <b>FORFAIT ANNUEL : 200€</b>
-              </p>
-            </div>
+
+          <div className="case-cotisation">
+            <p>
+              <b>DANSE JAZZ ADULTES</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>380€</b>
+            </p>
+            <p>
+              <i>1 heure 30</i>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>DANSE STREET JAZZ ADULTES </b>
+            </p>
+            <p className="prix-cotisation">
+              <b>295€</b>
+            </p>
+            <p>
+              <i>1 heure</i>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>SPORT SANTÉ ADULTES</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>105€</b>
+            </p>
+            <p>
+              <i>1 heure - 10 séances</i>
+            </p>
+            <p>
+              <b>FORFAIT ANNUEL : 200€</b>
+            </p>
           </div>
         </div>
         <h2>CONTACTS / RENSEIGNEMENTS</h2>

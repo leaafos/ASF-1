@@ -181,29 +181,28 @@ const Athletisme = () => {
               </p>
             </div>
           </div>
-          <div className="ligne-cotisations">
-            <div className="case-cotisation">
-              <p>
-                <b>2012 ET AVANT</b>
-              </p>
-              <p>
-                <i>Nouvelle adhésion (prix du maillot compris)</i>
-              </p>
-              <p className="prix-cotisation">
-                <b>240€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>2012 ET AVANT</b>
-              </p>
-              <p>
-                <i>Ancien adhérent</i>
-              </p>
-              <p className="prix-cotisation">
-                <b>205€</b>
-              </p>
-            </div>
+
+          <div className="case-cotisation">
+            <p>
+              <b>2012 ET AVANT</b>
+            </p>
+            <p>
+              <i>Nouvelle adhésion (prix du maillot compris)</i>
+            </p>
+            <p className="prix-cotisation">
+              <b>240€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>2012 ET AVANT</b>
+            </p>
+            <p>
+              <i>Ancien adhérent</i>
+            </p>
+            <p className="prix-cotisation">
+              <b>205€</b>
+            </p>
           </div>
         </div>
         <h2>CONTACTS / RENSEIGNEMENTS</h2>

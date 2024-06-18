@@ -214,26 +214,24 @@ const Badminton = () => {
               </p>
             </div>
           </div>
-          <div className="ligne-cotisations">
-            <div className="case-cotisation">
-              <p>
-                <b>ADULTES</b>
-              </p>
-              <p className="prix-cotisation">
-                <b>195€</b>
-              </p>
-            </div>
-            <div className="case-cotisation">
-              <p>
-                <b>ADULTES</b>
-              </p>
-              <p>
-                <i>avec Entraînement Compétition</i>
-              </p>
-              <p className="prix-cotisation">
-                <b>230€</b>
-              </p>
-            </div>
+          <div className="case-cotisation">
+            <p>
+              <b>ADULTES</b>
+            </p>
+            <p className="prix-cotisation">
+              <b>195€</b>
+            </p>
+          </div>
+          <div className="case-cotisation">
+            <p>
+              <b>ADULTES</b>
+            </p>
+            <p>
+              <i>avec Entraînement Compétition</i>
+            </p>
+            <p className="prix-cotisation">
+              <b>230€</b>
+            </p>
           </div>
         </div>
         <h2 className="h2">CONTACTS / RENSEIGNEMENTS</h2>
